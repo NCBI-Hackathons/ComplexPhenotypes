@@ -1,5 +1,5 @@
 # roll through the downloaded dbGap metadata from Downloading_dbGap_metadata.R
-# and create a sqlite database 
+# and create 5 data frames for the 5 types of data
 library(tidyverse)
 library(RSQLite)
 library(stringr)
@@ -45,3 +45,9 @@ table4_data <- do.call("rbind", table4_info)
 table5_info <- lapply(table5_files, read_tsv)
 table5_data <- do.call("rbind", table5_info)
 
+tables <- list("study_dataset_info" = table1_data, 
+               "study_id_variable_name" = table2_data, 
+               "study_info" = table3_data, 
+               "study_variable_code_value" = table4_data, 
+               "study_variable_info" = table5_data)
+save(tables, file='./data/demo_dbgap_metadata.Rdata')
