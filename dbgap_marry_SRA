@@ -1,0 +1,21 @@
+# download SRAdb
+
+curl -L -O http://gbnci.abcc.ncifcrf.gov/backup/SRAmetadb.sqlite.gz
+
+# gunzip
+
+gunzip SRAmetadb.sqlite.gz
+
+# Start up sqlite3
+
+sqlite3 SRAmetadb.sqlite
+
+#
+
+# Now in SQLite
+
+#
+
+select * from study where study_alias like 'phs%' limit 10;
+
+select a.study_accession,a.study_alias,b.* from study a join experiment b on a.study_accession=b.study_accession where study_alias='phs000532';
