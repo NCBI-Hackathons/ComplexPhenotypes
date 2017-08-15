@@ -39,7 +39,7 @@ dbGaP_SRA <- dbGetQuery(sra_con, "select * from study where study_alias like 'ph
 dim(dbGaP_SRA)
 ```
 
-Process `sra_in_dbGAP' and dbGaP metadata to make join-able
+Process `sra_in_dbGAP` and dbGaP metadata to make join-able
 ```{r, eval=FALSE}
 sra_in_dbGaP <- dbGetQuery(sra_con, "select * from sra where study_alias like 'phs%'")
 sra_in_dbGaP <- sra_in_dbGaP %>% 
@@ -49,4 +49,4 @@ tables$study_variable_info <- tables$study_variable_info %>%
   rowwise() %>% 
   mutate(study_alias = str_split(study_accession, '\\.')[[1]][1])
 ```
-Study accession codes found in the dpGaPdp metadata include study version information (e.g., phs000514.v1). However, SRAdb study accession codes do not follow the same nomenclature (e.g., phs000307_49). 
+Study accession codes found in the dpGaPdp metadata include study version information (e.g., `phs000514.v1`). However, SRAdb study accession codes do not follow the same nomenclature (e.g., `phs000307_49`). The above lines of code trim the inconsistency but, preserve the correct linking of the two databases. 

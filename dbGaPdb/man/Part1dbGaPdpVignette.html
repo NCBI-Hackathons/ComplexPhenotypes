@@ -143,7 +143,7 @@ sra_con &lt;- dbConnect(SQLite(), sqlfile)</code></pre>
 <p>Query SRAdb for any files containing references to dbGaP</p>
 <pre class="r"><code>dbGaP_SRA &lt;- dbGetQuery(sra_con, &quot;select * from study where study_alias like 'phs%'&quot;)
 dim(dbGaP_SRA)</code></pre>
-<p>Process `sra_in_dbGAP’ and dbGaP metadata to make join-able</p>
+<p>Process <code>sra_in_dbGAP</code> and dbGaP metadata to make join-able</p>
 <pre class="r"><code>sra_in_dbGaP &lt;- dbGetQuery(sra_con, &quot;select * from sra where study_alias like 'phs%'&quot;)
 sra_in_dbGaP &lt;- sra_in_dbGaP %&gt;% 
               rowwise() %&gt;% 
@@ -151,7 +151,7 @@ sra_in_dbGaP &lt;- sra_in_dbGaP %&gt;%
 tables$study_variable_info &lt;- tables$study_variable_info %&gt;% 
   rowwise() %&gt;% 
   mutate(study_alias = str_split(study_accession, '\\.')[[1]][1])</code></pre>
-<p>Study accession codes found in the dpGaPdp metadata include study version information (e.g., phs000514.v1). However, SRAdb study accession codes do not follow the same nomenclature (e.g., phs000307_49).</p>
+<p>Study accession codes found in the dpGaPdp metadata include study version information (e.g., <code>phs000514.v1</code>). However, SRAdb study accession codes do not follow the same nomenclature (e.g., <code>phs000307_49</code>). The above lines of code trim the inconsistency but, preserve the correct linking of the two databases.</p>
 </div>
 </div>
 
