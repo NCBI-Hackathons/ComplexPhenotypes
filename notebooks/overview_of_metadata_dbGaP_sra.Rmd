@@ -7,12 +7,13 @@ output: html_notebook
 ```{r}
 library(RSQLite)
 library(tidyverse)
+library(stringr)
 ```
 
 # Load in metadata and SRA sqlite
 You have to set `sqlfile` to the path of the sqlite file on your computer
 ```{r}
-load('./data/demo_dbgap_metadata.Rdata')
+load('../data/demo_dbgap_metadata.Rdata')
 sqlfile <- '~/SRAmetadb.sqlite'
 sra_con <- dbConnect(SQLite(), sqlfile)
 ```
@@ -39,6 +40,41 @@ tables$study_variable_code_value %>% sample_n(10) %>% data.frame()
 tables$study_variable_info %>% sample_n(10) %>% data.frame()
 ```
 
+# Process sra and dbGaP metadata to make join-able
+```{r}
+sra_in_dbGaP <- dbGetQuery(sra_con, "select * from sra where study_alias like 'phs%'")
+sra_in_dbGaP <- sra_in_dbGaP %>% 
+              rowwise() %>% 
+              mutate(study_alias2 = str_split(study_alias, '_')[[1]][1])
+tables$study_variable_info <- tables$study_variable_info %>% 
+  rowwise() %>% 
+  mutate(study_alias = str_split(study_accession, '\\.')[[1]][1])
+```
+
+How many studies have run level info?
+```{r}
+unique(tables$study_variable_info$study_alias) %in% unique(sra_in_dbGaP$study_alias2) %>% 
+  table()
+
+# Don't run unless you have a LOT of memory and CPU
+#left_join(tables$study_variable_info, sra_in_dbGaP, by = c('study_alias' = 'study_alias2')) %>% group_by(study_alias) %>% summarise(Count=n()) %>% dim()
+```
+How many studies with emphysema information have RNA-seq data?
+```{r}
+rna_studies <- sra_in_dbGaP %>% 
+  filter(grepl('RNA', library_strategy, ignore.case=T)) %>% 
+  pull(study_alias2) %>% 
+  unique()
+
+emphysema_studies <- tables$study_variable_info %>% 
+  filter(grepl('emphysema', description)) %>% 
+  pull(study_alias) %>% 
+  unique()
+
+emphysema_studies %in% rna_studies %>% table()
+```
+
+
 # Other examples highlighting dplyr
 https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html
 ## Studies with 'asthma' in the description
@@ -54,4 +90,19 @@ tables$study_variable_info %>% group_by(study_accession) %>% summarise(Count=n()
 ## Select three columns from study_variable_info in rows where cancer is in the description and taking 20 random rows from that
 ```{r}
 tables$study_variable_info %>% select(study_accession, variable_accession, male_count, female_count, description) %>% filter(grepl('cancer', description, ignore.case=T)) %>% sample_n(20)
+```
+
+## Select useful columns from study_variable_info in rows where cancer is in the description and pull the studies where there are more than 50 males and 1000 females in the cohort
+```{r}
+interesting_studies <- tables$study_variable_info %>% 
+  select(study_accession, variable_accession, male_count, female_count, description) %>%
+  filter(grepl('cancer', description, ignore.case=T)) %>% 
+  filter(male_count > 50, female_count > 1000) %>% 
+  rowwise() %>% 
+  mutate(study_accession2 = str_split(study_accession, '\\.')[[1]][1]) %>% 
+  group_by(study_accession2) %>% 
+  summarise(Count = n()) %>% 
+  pull(study_accession2)
+print('')
+interesting_studies
 ```
