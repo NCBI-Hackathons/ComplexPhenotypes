@@ -27,8 +27,15 @@ def find_PhenX(root):
             else:
                 return
 
+def output(outfile, dbGaPs, primary_name):
+    outfile.write('phv_id\tPhenX_id\tCDE_primary_name\n')
+    for id_set in dbGaPs:
+        outfile.write(id_set + '\t' + dbGaPs[id_set] + '\t' + primary_name + '\n')
+
+outfile = open("CDE_table.tsv", "w")
 for trees in tree_list:
     tree = ET.parse(trees)
     root = tree.getroot()
-    find_dbGaPs(root)
-    find_PhenX(root)
+#    find_dbGaPs(root)
+#    find_PhenX(root)
+    output(outfile, find_dbGaPs(root), find_PhenX(root))
