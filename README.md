@@ -1,5 +1,5 @@
-# Searchable ComplexPhenotypes
-*Searchable database of sequencing and phenotype data*
+# dbGaPdb
+* A searchable database of sequencing and phenotype data*
 ##### Hackathon Team: David McGaughey, Filip Cvetkovski, Michelle Miron, Robert Butler, Sean King, Luning Hoa, Sean Davis and Ben Busby
 
 ## Intro
