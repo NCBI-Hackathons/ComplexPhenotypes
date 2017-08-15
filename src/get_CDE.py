@@ -5,7 +5,7 @@ import sys
 import xml.etree.ElementTree as ET
 import re
 
-tree_list = sys.argv[1:] # glob(sys.argv[1])
+tree_list = sys.argv[1:] 
 print(tree_list)
 
 def find_dbGaPs(root):
@@ -13,10 +13,11 @@ def find_dbGaPs(root):
     for dataSets in root.findall('dataSets'):
         source = dataSets.find('source').text
         notes = dataSets.find('notes').text
-        phenx_id = re.search('(PX\d+)$', notes).group()
-        id_set = dataSets.find('id').text
-        if source == "dbGaP" and notes.startswith('PhenX'):
+        phenx_id = re.search('(PX\d+)$', notes).group() or "not found"
+        id_set = dataSets.find('id').text or "not found"
+        if source == "dbGaP" and notes.startswith('PhenX') and id_set != "not found":
             dbGaPs[id_set] = phenx_id
+    print(dbGaPs)
     return dbGaPs
 
 def find_PhenX(root):
@@ -25,18 +26,22 @@ def find_PhenX(root):
             if tags.find('tag').text == 'Primary Name':
                 primary_name = naming.find('designation').text
                 return primary_name
+            elif tags.find('tag').text == 'Long Common Name':
+                primary_name = naming.find('designation').text
+                return primary_name
             else:
                 return
 
 def output(outfile, dbGaPs, primary_name):
-    outfile.write('phv_id\tPhenX_id\tCDE_primary_name\n')
     for id_set in dbGaPs:
         outfile.write(id_set + '\t' + dbGaPs[id_set] + '\t' + primary_name + '\n')
 
 outfile = open("CDE_table.tsv", "w")
+outfile.write('phv_id\tPhenX_id\tCDE_primary_name\n')
 for trees in tree_list:
     tree = ET.parse(trees)
     root = tree.getroot()
 #    find_dbGaPs(root)
 #    find_PhenX(root)
+    print(trees)
     output(outfile, find_dbGaPs(root), find_PhenX(root))
