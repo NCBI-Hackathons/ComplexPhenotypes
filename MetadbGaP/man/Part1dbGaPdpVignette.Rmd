@@ -1,0 +1,24 @@
+---
+title: "Part1dbGaPdbVignette"
+author: "Complex Phenotypes group"
+date: "August 15, 2017"
+output: html_document
+---
+
+# dbGaPdb 
+
+## Linking dbGaPdb with SRAdb 
+
+SRAdb allows for efficient searching through metadata associated with files deposited to the Sequence Read Archives (SRA). dpGaP contains studies with genomic data that are found in SRA. To access the metadata of dpGaP files in SRA, download SRAdb and search the 'sra' table for any rows that contain accessions starting with 'phs' found in the 'study_alias' column. 
+
+Download SRAdb (Make sure you have >30GB of free drive space!)
+
+```{r, message=FALSE, eval=FALSE}
+library(SRAdb)
+
+if(!file.exists('~/SRAmetadb.sqlite')) sqlfile <<- getSRAdbFile(destdir='~/',destfile='SRAmetadb.sqlite.gz')
+sqlfile = '~/SRAmetadb.sqlite'
+```
+
+
+### sra_con <- dbConnect(SQLite(),sqlfile)
