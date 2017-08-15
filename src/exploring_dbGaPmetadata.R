@@ -1,7 +1,7 @@
 #playing with dbGaP metadata to see what's there
 #once you already downloaded a test data set of the dbGaP data
 #there are five types of data files associated with each dbGaP study
-#Load paths to files 
+#Load paths to these five files 
 path_file1 <- "Desktop/Hackathon_NCBI2017/dbGaPR/metadata/phs000007/phs000007.v1/supplemental_data/phs000007.v1_study_id_variable_name.txt.gz"
 path_file2 <- "Desktop/Hackathon_NCBI2017/dbGaPR/metadata/phs000007/phs000007.v1/supplemental_data/phs000007.v1_study_dataset_info.txt.gz"
 path_file3 <- "Desktop/Hackathon_NCBI2017/dbGaPR/metadata/phs000007/phs000007.v1/supplemental_data/phs000007.v1_study_info.txt.gz"
