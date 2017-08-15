@@ -1,0 +1,57 @@
+---
+title: "Skeleton Connect SRA dbGaP Metadata"
+output: html_notebook
+---
+
+# Load libraries
+```{r}
+library(RSQLite)
+library(tidyverse)
+```
+
+# Load in metadata and SRA sqlite
+You have to set `sqlfile` to the path of the sqlite file on your computer
+```{r}
+load('./data/demo_dbgap_metadata.Rdata')
+sqlfile <- '~/SRAmetadb.sqlite'
+sra_con <- dbConnect(SQLite(), sqlfile)
+```
+
+# Left join SRAdb to dbGaP metadata
+```{r}
+dbGetQuery(sra_con, "select * from study where study_alias like 'phs%' limit 40")
+dbGetQuery(sra_con, "select * from sra where study_alias is 'phs000257_56' limit 40")
+```
+
+# You can also store the results as a data frame
+```{r}
+phs000257_56 <- dbGetQuery(sra_con, "select * from sra where study_alias is 'phs000257_56'")
+phs000257_56 %>% sample_n(10)
+```
+
+# Let's take a quick look at the dbGaP Metadata tables
+10 random rows from each
+```{r} 
+tables$study_dataset_info %>% sample_n(10) %>% data.frame()
+tables$study_id_variable_name %>% sample_n(10) %>% data.frame()
+tables$study_info%>% sample_n(10) %>% data.frame()
+tables$study_variable_code_value %>% sample_n(10) %>% data.frame()
+tables$study_variable_info %>% sample_n(10) %>% data.frame()
+```
+
+# Other examples highlighting dplyr
+https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html
+## Studies with 'asthma' in the description
+```{r}
+tables$study_variable_info %>% filter(grepl("asthma", description, ignore.case=T)) %>% sample_n(10)
+```
+
+## Number of studies (and versions) in study_variable_info
+```{r}
+tables$study_variable_info %>% group_by(study_accession) %>% summarise(Count=n()) %>% nrow()
+```
+
+## Select three columns from study_variable_info in rows where cancer is in the description and taking 20 random rows from that
+```{r}
+tables$study_variable_info %>% select(study_accession, variable_accession, male_count, female_count, description) %>% filter(grepl('cancer', description, ignore.case=T)) %>% sample_n(20)
+```
