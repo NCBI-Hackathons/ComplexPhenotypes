@@ -4,7 +4,7 @@ library(tidyverse)
 library(RSQLite)
 library(stringr)
 library(data.table)
-dbgap_metadata_path <- '~/git/ComplexPhenotypes/data/dbgapr_testdata/'
+dbgap_metadata_path <- '~/dbGaPR/'
 
 # get file paths for metadata
 dbgap_metadata_files <- list.files(path=dbgap_metadata_path, 
