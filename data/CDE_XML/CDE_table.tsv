@@ -1,2 +1,1429 @@
 phv_id	PhenX_id	CDE_primary_name
-phv00181476.v1.p1	PX120502220000	Energy level in past 7D
+phv00006510.v1.p9		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00006918.v1.p9		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00007355.v1.p9		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00020920.v4.p9		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00072084.v4.p9		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00078001.v4.p3		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00078002.v4.p3		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00078141.v4.p3		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00078142.v4.p3		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00078282.v4.p3		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00078283.v4.p3		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00111560.v3.p3		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00111561.v3.p3		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00169412.v2.p3		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00169413.v2.p3		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00169548.v2.p3		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv00169550.v2.p3		Have you used evista - raloxifene or nolvadex - tamoxifen
+phv_id	PhenX_id	CDE_primary_name
+phv00006649.v1.p9		Have you ever had pneumonia, include bronchopneumonia
+phv00021300.v4.p9		Have you ever had pneumonia, include bronchopneumonia
+phv00159722.v3.p2		Have you ever had pneumonia, include bronchopneumonia
+phv00083539.v1.p3		Have you ever had pneumonia, include bronchopneumonia
+phv00083774.v2.p3		Have you ever had pneumonia, include bronchopneumonia
+phv00087765.v1.p3		Have you ever had pneumonia, include bronchopneumonia
+phv00123526.v1.p1		Have you ever had pneumonia, include bronchopneumonia
+phv00113370.v2.p2		Have you ever had pneumonia, include bronchopneumonia
+phv00118528.v2.p2		Have you ever had pneumonia, include bronchopneumonia
+phv00119895.v2.p2		Have you ever had pneumonia, include bronchopneumonia
+phv00099077.v1.p1		Have you ever had pneumonia, include bronchopneumonia
+phv00101526.v1.p1		Have you ever had pneumonia, include bronchopneumonia
+phv00102674.v1.p1		Have you ever had pneumonia, include bronchopneumonia
+phv00104139.v1.p1		Have you ever had pneumonia, include bronchopneumonia
+phv00106012.v1.p1		Have you ever had pneumonia, include bronchopneumonia
+phv00107085.v1.p1		Have you ever had pneumonia, include bronchopneumonia
+phv00107944.v1.p1		Have you ever had pneumonia, include bronchopneumonia
+phv00108618.v1.p1		Have you ever had pneumonia, include bronchopneumonia
+phv00109385.v1.p1		Have you ever had pneumonia, include bronchopneumonia
+phv00110047.v1.p1		Have you ever had pneumonia, include bronchopneumonia
+phv00154673.v2.p2		Have you ever had pneumonia, include bronchopneumonia
+phv00154719.v2.p2		Have you ever had pneumonia, include bronchopneumonia
+phv00154765.v2.p2		Have you ever had pneumonia, include bronchopneumonia
+phv00154811.v2.p2		Have you ever had pneumonia, include bronchopneumonia
+phv00154857.v2.p2		Have you ever had pneumonia, include bronchopneumonia
+phv00160112.v1.p1		Have you ever had pneumonia, include bronchopneumonia
+phv00169185.v4.p1		Have you ever had pneumonia, include bronchopneumonia
+phv00169186.v4.p1		Have you ever had pneumonia, include bronchopneumonia
+phv_id	PhenX_id	CDE_primary_name
+phv00163305.v1.p1		At the present time, how is your eyesight, using both eyes with glasses or contact lenses, if you wear them
+phv_id	PhenX_id	CDE_primary_name
+phv00070410.v1.p9		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv00159655.v3.p2		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv00209681.v1.p1		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv00209762.v1.p1		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv00113336.v2.p2		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv00128333.v1.p1		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv00099099.v1.p1		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv00106034.v1.p1		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv00107824.v1.p1		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv00154644.v2.p2		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv00154690.v2.p2		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv00154736.v2.p2		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv00154782.v2.p2		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv00154828.v2.p2		Do you usually cough as much as 4 to 6 times a D, 4 or more D out of the W
+phv_id	PhenX_id	CDE_primary_name
+phv00120051.v2.p2		What is your best estimate of the number of D you smoked part or all of a cigarette during the past 30D
+phv_id	PhenX_id	CDE_primary_name
+phv00000084.v2.p1		Intravascular systolic
+phv00000085.v2.p1		Intravascular systolic
+phv00000086.v2.p1		Intravascular systolic
+phv00000087.v2.p1		Intravascular systolic
+phv00000088.v2.p1		Intravascular systolic
+phv00000089.v2.p1		Intravascular systolic
+phv00000090.v2.p1		Intravascular systolic
+phv00000091.v2.p1		Intravascular systolic
+phv00000092.v2.p1		Intravascular systolic
+phv00000093.v2.p1		Intravascular systolic
+phv00000094.v2.p1		Intravascular systolic
+phv00000095.v2.p1		Intravascular systolic
+phv00053859.v2.p1		Intravascular systolic
+phv00053986.v2.p1		Intravascular systolic
+phv00000528.v1.p9		Intravascular systolic
+phv00000530.v1.p9		Intravascular systolic
+phv00000620.v1.p9		Intravascular systolic
+phv00000622.v1.p9		Intravascular systolic
+phv00000640.v1.p9		Intravascular systolic
+phv00000642.v1.p9		Intravascular systolic
+phv00000644.v1.p9		Intravascular systolic
+phv00000719.v1.p9		Intravascular systolic
+phv00000757.v1.p9		Intravascular systolic
+phv00000759.v1.p9		Intravascular systolic
+phv00000833.v1.p9		Intravascular systolic
+phv00000835.v1.p9		Intravascular systolic
+phv00000918.v1.p9		Intravascular systolic
+phv00000920.v1.p9		Intravascular systolic
+phv00001041.v1.p9		Intravascular systolic
+phv00001043.v1.p9		Intravascular systolic
+phv00001195.v1.p9		Intravascular systolic
+phv00001197.v1.p9		Intravascular systolic
+phv00001370.v1.p9		Intravascular systolic
+phv00001372.v1.p9		Intravascular systolic
+phv00001567.v1.p9		Intravascular systolic
+phv00001569.v1.p9		Intravascular systolic
+phv00001809.v1.p9		Intravascular systolic
+phv00001811.v1.p9		Intravascular systolic
+phv00002024.v1.p9		Intravascular systolic
+phv00002026.v1.p9		Intravascular systolic
+phv00002208.v1.p9		Intravascular systolic
+phv00002210.v1.p9		Intravascular systolic
+phv00002429.v1.p9		Intravascular systolic
+phv00002431.v1.p9		Intravascular systolic
+phv00002673.v1.p9		Intravascular systolic
+phv00002675.v1.p9		Intravascular systolic
+phv00002947.v1.p9		Intravascular systolic
+phv00003246.v1.p9		Intravascular systolic
+phv00003306.v1.p9		Intravascular systolic
+phv00003316.v1.p9		Intravascular systolic
+phv00003675.v1.p9		Intravascular systolic
+phv00003688.v1.p9		Intravascular systolic
+phv00004091.v1.p9		Intravascular systolic
+phv00004533.v1.p9		Intravascular systolic
+phv00004546.v1.p9		Intravascular systolic
+phv00005138.v1.p9		Intravascular systolic
+phv00005548.v1.p9		Intravascular systolic
+phv00005766.v1.p9		Intravascular systolic
+phv00005934.v1.p9		Intravascular systolic
+phv00006041.v1.p9		Intravascular systolic
+phv00006512.v1.p9		Intravascular systolic
+phv00006680.v1.p9		Intravascular systolic
+phv00006921.v1.p9		Intravascular systolic
+phv00007572.v5.p9		Intravascular systolic
+phv00007574.v5.p9		Intravascular systolic
+phv00007683.v5.p9		Intravascular systolic
+phv00007685.v5.p9		Intravascular systolic
+phv00008539.v5.p9		Intravascular systolic
+phv00008711.v5.p9		Intravascular systolic
+phv00008756.v5.p9		Intravascular systolic
+phv00008770.v5.p9		Intravascular systolic
+phv00009395.v5.p9		Intravascular systolic
+phv00009558.v5.p9		Intravascular systolic
+phv00009905.v5.p9		Intravascular systolic
+phv00010122.v5.p9		Intravascular systolic
+phv00010360.v5.p9		Intravascular systolic
+phv00010507.v5.p9		Intravascular systolic
+phv00021092.v4.p9		Intravascular systolic
+phv00021239.v4.p9		Intravascular systolic
+phv00024456.v5.p9		Intravascular systolic
+phv00024891.v1.p9		Intravascular systolic
+phv00055256.v5.p9		Intravascular systolic
+phv00055285.v5.p9		Intravascular systolic
+phv00056853.v2.p9		Intravascular systolic
+phv00056863.v2.p9		Intravascular systolic
+phv00070375.v1.p9		Intravascular systolic
+phv00070557.v1.p9		Intravascular systolic
+phv00072138.v4.p9		Intravascular systolic
+phv00072661.v4.p9		Intravascular systolic
+phv00177352.v1.p9		Intravascular systolic
+phv00019997.v1.p1		Intravascular systolic
+phv00025677.v1.p1		Intravascular systolic
+phv00026020.v1.p1		Intravascular systolic
+phv00027105.v1.p1		Intravascular systolic
+phv00027425.v1.p1		Intravascular systolic
+phv00027441.v1.p1		Intravascular systolic
+phv00027457.v1.p1		Intravascular systolic
+phv00027473.v1.p1		Intravascular systolic
+phv00027489.v1.p1		Intravascular systolic
+phv00027505.v1.p1		Intravascular systolic
+phv00027521.v1.p1		Intravascular systolic
+phv00027537.v1.p1		Intravascular systolic
+phv00027553.v1.p1		Intravascular systolic
+phv00027569.v1.p1		Intravascular systolic
+phv00028933.v1.p1		Intravascular systolic
+phv00029731.v1.p1		Intravascular systolic
+phv00030224.v1.p1		Intravascular systolic
+phv00030225.v1.p1		Intravascular systolic
+phv00030226.v1.p1		Intravascular systolic
+phv00030227.v1.p1		Intravascular systolic
+phv00030228.v1.p1		Intravascular systolic
+phv00030229.v1.p1		Intravascular systolic
+phv00030230.v1.p1		Intravascular systolic
+phv00030231.v1.p1		Intravascular systolic
+phv00030232.v1.p1		Intravascular systolic
+phv00030233.v1.p1		Intravascular systolic
+phv00030692.v1.p1		Intravascular systolic
+phv00030766.v1.p1		Intravascular systolic
+phv00031234.v1.p1		Intravascular systolic
+phv00033542.v1.p1		Intravascular systolic
+phv00034133.v1.p1		Intravascular systolic
+phv00034520.v1.p1		Intravascular systolic
+phv00048941.v1.p1		Intravascular systolic
+phv00049359.v1.p1		Intravascular systolic
+phv00065900.v1.p1		Intravascular systolic
+phv00020826.v1.p1		Intravascular systolic
+phv00159289.v1.p1		Intravascular systolic
+phv00051711.v1.p3		Intravascular systolic
+phv00051712.v1.p3		Intravascular systolic
+phv00051713.v1.p3		Intravascular systolic
+phv00051714.v1.p3		Intravascular systolic
+phv00051779.v1.p3		Intravascular systolic
+phv00051780.v1.p3		Intravascular systolic
+phv00051781.v1.p3		Intravascular systolic
+phv00051782.v1.p3		Intravascular systolic
+phv00051841.v2.p3		Intravascular systolic
+phv00066515.v1.p1		Intravascular systolic
+phv00073443.v1.p1		Intravascular systolic
+phv00159590.v3.p2		Intravascular systolic
+phv00076292.v1.p1		Intravascular systolic
+phv00079854.v4.p3		Intravascular systolic
+phv00079863.v4.p3		Intravascular systolic
+phv00079864.v4.p3		Intravascular systolic
+phv00083399.v1.p3		Intravascular systolic
+phv00083410.v1.p3		Intravascular systolic
+phv00085732.v2.p3		Intravascular systolic
+phv00085740.v2.p3		Intravascular systolic
+phv00086224.v2.p3		Intravascular systolic
+phv00086232.v2.p3		Intravascular systolic
+phv00086707.v2.p3		Intravascular systolic
+phv00086715.v2.p3		Intravascular systolic
+phv00087029.v2.p3		Intravascular systolic
+phv00087037.v2.p3		Intravascular systolic
+phv00087505.v1.p3		Intravascular systolic
+phv00175587.v1.p3		Intravascular systolic
+phv00175601.v1.p3		Intravascular systolic
+phv00175862.v1.p3		Intravascular systolic
+phv00177021.v1.p3		Intravascular systolic
+phv00177035.v1.p3		Intravascular systolic
+phv00082600.v1.p1		Intravascular systolic
+phv00158672.v1.p1		Intravascular systolic
+phv00090515.v2.p1		Intravascular systolic
+phv00091518.v1.p1		Intravascular systolic
+phv00091542.v1.p1		Intravascular systolic
+phv00096782.v1.p1		Intravascular systolic
+phv00096813.v1.p1		Intravascular systolic
+phv00096841.v1.p1		Intravascular systolic
+phv00096874.v1.p1		Intravascular systolic
+phv00097978.v1.p1		Intravascular systolic
+phv00098086.v1.p1		Intravascular systolic
+phv00161397.v3.p3		Intravascular systolic
+phv00122561.v1.p1		Intravascular systolic
+phv00123844.v1.p1		Intravascular systolic
+phv00123854.v1.p1		Intravascular systolic
+phv00123864.v1.p1		Intravascular systolic
+phv00124246.v1.p1		Intravascular systolic
+phv00124248.v1.p1		Intravascular systolic
+phv00124250.v1.p1		Intravascular systolic
+phv00116135.v2.p2		Intravascular systolic
+phv00119238.v2.p2		Intravascular systolic
+phv00124606.v1.p1		Intravascular systolic
+phv00128370.v1.p1		Intravascular systolic
+phv00099358.v1.p1		Intravascular systolic
+phv00099361.v1.p1		Intravascular systolic
+phv00101775.v1.p1		Intravascular systolic
+phv00101961.v1.p1		Intravascular systolic
+phv00102463.v1.p1		Intravascular systolic
+phv00102574.v1.p1		Intravascular systolic
+phv00104010.v1.p1		Intravascular systolic
+phv00104023.v1.p1		Intravascular systolic
+phv00104687.v1.p1		Intravascular systolic
+phv00104697.v1.p1		Intravascular systolic
+phv00105425.v1.p1		Intravascular systolic
+phv00106787.v1.p1		Intravascular systolic
+phv00106794.v1.p1		Intravascular systolic
+phv00107755.v1.p1		Intravascular systolic
+phv00107774.v1.p1		Intravascular systolic
+phv00108486.v1.p1		Intravascular systolic
+phv00108830.v1.p1		Intravascular systolic
+phv00110337.v1.p1		Intravascular systolic
+phv00197426.v1.p1		Intravascular systolic
+phv00174123.v1.p1		Intravascular systolic
+phv00159343.v1.p1		Intravascular systolic
+phv00179645.v1.p1		Intravascular systolic
+phv00180538.v1.p1		Intravascular systolic
+phv00163549.v1.p1		Intravascular systolic
+phv00164738.v1.p1		Intravascular systolic
+phv00171766.v1.p1		Intravascular systolic
+phv00171768.v1.p1		Intravascular systolic
+phv00171769.v1.p1		Intravascular systolic
+phv00171770.v1.p1		Intravascular systolic
+phv00173313.v1.p1		Intravascular systolic
+phv00173260.v1.p1		Intravascular systolic
+phv00179599.v1.p1		Intravascular systolic
+phv00201419.v1.p9		Intravascular systolic
+phv00200634.v1.p1		Intravascular systolic
+phv_id	PhenX_id	CDE_primary_name
+phv00020883.v4.p10		Was insulin your first diabetes medicine
+phv00083010.v1.p3		Was insulin your first diabetes medicine
+phv00085246.v2.p3		Was insulin your first diabetes medicine
+phv00087163.v1.p3		Was insulin your first diabetes medicine
+phv_id	PhenX_id	CDE_primary_name
+phv00159792.v3.p2		Was your parent ever told by a doctor that he or she had asthma
+phv00107869.v1.p1		Was your parent ever told by a doctor that he or she had asthma
+phv00159791.v3.p2		Was your parent ever told by a doctor that he or she had asthma
+phv00107868.v1.p1		Was your parent ever told by a doctor that he or she had asthma
+phv_id	PhenX_id	CDE_primary_name
+phv00053847.v2.p1		Did you ever have cataract surgery
+phv00053848.v2.p1		Did you ever have cataract surgery
+phv00053931.v2.p1		Did you ever have cataract surgery
+phv00053932.v2.p1		Did you ever have cataract surgery
+phv00003501.v1.p9		Did you ever have cataract surgery
+phv00034340.v1.p1		Did you ever have cataract surgery
+phv00085834.v2.p3		Did you ever have cataract surgery
+phv00159084.v1.p3		Did you ever have cataract surgery
+phv00159187.v1.p3		Did you ever have cataract surgery
+phv00209138.v1.p1		Did you ever have cataract surgery
+phv00209174.v1.p1		Did you ever have cataract surgery
+phv00101807.v1.p1		Did you ever have cataract surgery
+phv00181951.v1.p1		Did you ever have cataract surgery
+phv_id	PhenX_id	CDE_primary_name
+phv00012499.v1.p1		Were you unable to stop or cut down drinking 3 or more times
+phv00012501.v1.p1		Were you unable to stop or cut down drinking 3 or more times
+phv00015685.v1.p1		Were you unable to stop or cut down drinking 3 or more times
+phv00022924.v1.p1		Were you unable to stop or cut down drinking 3 or more times
+phv00044940.v1.p1		Were you unable to stop or cut down drinking 3 or more times
+phv00181353.v1.p1		Were you unable to stop or cut down drinking 3 or more times
+phv00162820.v1.p1		Were you unable to stop or cut down drinking 3 or more times
+phv_id	PhenX_id	CDE_primary_name
+phv00104946.v1.p1		Have you ever used progesterone or a progestin
+phv00106330.v1.p1		Have you ever used progesterone or a progestin
+phv00107269.v1.p1		Have you ever used progesterone or a progestin
+phv00108139.v1.p1		Have you ever used progesterone or a progestin
+phv_id	PhenX_id	CDE_primary_name
+phv00181472.v1.p1		Concentration or decision making in past 7D
+phv_id	PhenX_id	CDE_primary_name
+phv00007721.v5.p9		Age at last menstrual period
+phv00008423.v5.p9		Age at last menstrual period
+phv00036419.v6.p9		Age at last menstrual period
+phv00036428.v6.p9		Age at last menstrual period
+phv00080474.v1.p1		Age at last menstrual period
+phv00080512.v1.p1		Age at last menstrual period
+phv00110722.v4.p3		Age at last menstrual period
+phv00083034.v1.p3		Age at last menstrual period
+phv00085267.v2.p3		Age at last menstrual period
+phv00087184.v1.p3		Age at last menstrual period
+phv00163132.v1.p1		Age at last menstrual period
+phv00090436.v3.p2		Age at last menstrual period
+phv00094007.v1.p1		Age at last menstrual period
+phv00094046.v1.p1		Age at last menstrual period
+phv00094332.v1.p1		Age at last menstrual period
+phv00096015.v1.p1		Age at last menstrual period
+phv00096170.v1.p1		Age at last menstrual period
+phv00165280.v2.p3		Age at last menstrual period
+phv00122154.v1.p1		Age at last menstrual period
+phv00120559.v2.p2		Age at last menstrual period
+phv00128267.v1.p1		Age at last menstrual period
+phv00100351.v1.p1		Age at last menstrual period
+phv00172024.v1.p1		Age at last menstrual period
+phv00163297.v1.p1		Age at last menstrual period
+phv00190422.v1.p1		Age at last menstrual period
+phv00165190.v2.p1		Age at last menstrual period
+phv00178057.v1.p3		Age at last menstrual period
+phv_id	PhenX_id	CDE_primary_name
+phv00020123.v2.p2		Age and mode of onset notes
+phv00034937.v1.p2		Age and mode of onset notes
+phv00071349.v1.p1		Age and mode of onset notes
+phv00165037.v1.p1		Age and mode of onset notes
+phv_id	PhenX_id	CDE_primary_name
+phv00181470.v1.p1		Decreased weight within the last 2W in past 7D
+phv_id	PhenX_id	CDE_primary_name
+phv00012671.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00015950.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00066430.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00171260.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00162874.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00012674.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00066437.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00171304.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00162881.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00012672.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00015951.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00171282.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00012673.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00015952.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00171293.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00012675.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00015954.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00066582.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv00162902.v1.p1		Have you ever given up or greatly reduced important activities like sports, work, or associating with friends or relatives while using this drug
+phv_id	PhenX_id	CDE_primary_name
+phv00005321.v1.p9		I was more quiet than usual
+phv00005959.v1.p9		I was more quiet than usual
+phv00006427.v1.p9		I was more quiet than usual
+phv00006783.v1.p9		I was more quiet than usual
+phv00007126.v1.p9		I was more quiet than usual
+phv00009657.v5.p9		I was more quiet than usual
+phv00010598.v5.p9		I was more quiet than usual
+phv00021284.v4.p9		I was more quiet than usual
+phv00022486.v5.p9		I was more quiet than usual
+phv00070582.v1.p9		I was more quiet than usual
+phv00177669.v1.p9		I was more quiet than usual
+phv00082933.v1.p3		I was more quiet than usual
+phv00084740.v2.p3		I was more quiet than usual
+phv00086379.v2.p3		I was more quiet than usual
+phv00086800.v2.p3		I was more quiet than usual
+phv00087430.v1.p3		I was more quiet than usual
+phv00175219.v1.p3		I was more quiet than usual
+phv00176642.v1.p3		I was more quiet than usual
+phv00115992.v2.p2		I was more quiet than usual
+phv00119223.v2.p2		I was more quiet than usual
+phv00120316.v2.p2		I was more quiet than usual
+phv00125975.v1.p1		I was more quiet than usual
+phv_id	PhenX_id	CDE_primary_name
+phv00021295.v4.p9		At what age did asthma start
+phv00072509.v4.p9		At what age did asthma start
+phv00017006.v1.p1		At what age did asthma start
+phv00051919.v1.p1		At what age did asthma start
+phv00070939.v1.p1		At what age did asthma start
+phv00071050.v2.p1		At what age did asthma start
+phv00071158.v2.p1		At what age did asthma start
+phv00159702.v3.p2		At what age did asthma start
+phv00083531.v1.p3		At what age did asthma start
+phv00083533.v1.p3		At what age did asthma start
+phv00083537.v1.p3		At what age did asthma start
+phv00083766.v2.p3		At what age did asthma start
+phv00083768.v2.p3		At what age did asthma start
+phv00083772.v2.p3		At what age did asthma start
+phv00085771.v3.p3		At what age did asthma start
+phv00087757.v1.p3		At what age did asthma start
+phv00087759.v1.p3		At what age did asthma start
+phv00087763.v1.p3		At what age did asthma start
+phv00175296.v1.p3		At what age did asthma start
+phv00175297.v1.p3		At what age did asthma start
+phv00175298.v1.p3		At what age did asthma start
+phv00175302.v1.p3		At what age did asthma start
+phv00175303.v1.p3		At what age did asthma start
+phv00176719.v1.p3		At what age did asthma start
+phv00176720.v1.p3		At what age did asthma start
+phv00176721.v1.p3		At what age did asthma start
+phv00176725.v1.p3		At what age did asthma start
+phv00176726.v1.p3		At what age did asthma start
+phv00090997.v1.p1		At what age did asthma start
+phv00209716.v1.p1		At what age did asthma start
+phv00122255.v1.p1		At what age did asthma start
+phv00113387.v2.p2		At what age did asthma start
+phv00114603.v2.p2		At what age did asthma start
+phv00117046.v2.p2		At what age did asthma start
+phv00118520.v2.p2		At what age did asthma start
+phv00119904.v2.p2		At what age did asthma start
+phv00128353.v1.p1		At what age did asthma start
+phv_id	PhenX_id	CDE_primary_name
+phv00012504.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00015688.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00018226.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00035189.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00052625.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00054497.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00020372.v1.p2		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00034738.v1.p2		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00044961.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00044962.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00044963.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00044964.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00044965.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00071598.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00181356.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00073492.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00171312.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00165008.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00217615.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv00217624.v1.p1		Have you ever started drinking at times you promised yourself that you wouldn't, or have you ever drunk more than you intended, for example, when you decided to drink 2 drinks and ended up drinking 4 or more
+phv_id	PhenX_id	CDE_primary_name
+phv00007722.v5.p10		Cause of menopause if other
+phv00008424.v5.p10		Cause of menopause if other
+phv00011076.v1.p10		Cause of menopause if other
+phv00036420.v6.p10		Cause of menopause if other
+phv00070738.v2.p10		Cause of menopause if other
+phv00080513.v1.p1		Cause of menopause if other
+phv_id	PhenX_id	CDE_primary_name
+phv00181518.v1.p1		Hand dominance - thread a needle
+phv_id	PhenX_id	CDE_primary_name
+phv00159992.v1.p1		Gestational age in W^at most recent delivery
+phv00160038.v1.p1		Gestational age in W^at most recent delivery
+phv00160081.v1.p1		Gestational age in W^at most recent delivery
+phv00160143.v1.p1		Gestational age in W^at most recent delivery
+phv_id	PhenX_id	CDE_primary_name
+phv00013336.v1.p1		Positive formal thought disorder
+phv_id	PhenX_id	CDE_primary_name
+phv00078983.v4.p3		Increased appetite
+phv_id	PhenX_id	CDE_primary_name
+phv00095950.v1.p1		Volume expired during 1.0 s of forced expiration
+phv00095967.v1.p1		Volume expired during 1.0 s of forced expiration
+phv00099671.v1.p1		Volume expired during 1.0 s of forced expiration
+phv00154570.v2.p2		Volume expired during 1.0 s of forced expiration
+phv00154573.v2.p2		Volume expired during 1.0 s of forced expiration
+phv00154598.v2.p2		Volume expired during 1.0 s of forced expiration
+phv00154601.v2.p2		Volume expired during 1.0 s of forced expiration
+phv00154604.v2.p2		Volume expired during 1.0 s of forced expiration
+phv00154607.v2.p2		Volume expired during 1.0 s of forced expiration
+phv00154610.v2.p2		Volume expired during 1.0 s of forced expiration
+phv00154613.v2.p2		Volume expired during 1.0 s of forced expiration
+phv00154616.v2.p2		Volume expired during 1.0 s of forced expiration
+phv00154619.v2.p2		Volume expired during 1.0 s of forced expiration
+phv00154622.v2.p2		Volume expired during 1.0 s of forced expiration
+phv00154625.v2.p2		Volume expired during 1.0 s of forced expiration
+phv_id	PhenX_id	CDE_primary_name
+phv00000187.v1.p1		Sex
+phv00000225.v1.p1		Sex
+phv00024079.v1.p1		Sex
+phv00020520.v1.p1		Sex
+phv00024071.v4.p9		Sex
+phv00177929.v3.p9		Sex
+phv00011566.v2.p2		Sex
+phv00011576.v1.p1		Sex
+phv00016991.v1.p1		Sex
+phv00035052.v1.p1		Sex
+phv00035338.v1.p1		Sex
+phv00051908.v1.p1		Sex
+phv00054360.v1.p1		Sex
+phv00019965.v1.p1		Sex
+phv00020011.v1.p1		Sex
+phv00020112.v2.p2		Sex
+phv00020235.v1.p2		Sex
+phv00034892.v1.p2		Sex
+phv00034926.v1.p2		Sex
+phv00020553.v1.p1		Sex
+phv00024092.v1.p1		Sex
+phv00024957.v1.p1		Sex
+phv00025695.v1.p1		Sex
+phv00026039.v1.p1		Sex
+phv00027102.v1.p1		Sex
+phv00027796.v1.p1		Sex
+phv00028718.v1.p1		Sex
+phv00028966.v1.p1		Sex
+phv00029309.v1.p1		Sex
+phv00030102.v1.p1		Sex
+phv00030340.v1.p1		Sex
+phv00030687.v1.p1		Sex
+phv00030750.v1.p1		Sex
+phv00030936.v1.p1		Sex
+phv00031783.v1.p1		Sex
+phv00034144.v1.p1		Sex
+phv00034546.v1.p1		Sex
+phv00051664.v1.p1		Sex
+phv00020794.v1.p1		Sex
+phv00023939.v3.p2		Sex
+phv00024005.v3.p2		Sex
+phv00022834.v1.p1		Sex
+phv00022888.v1.p1		Sex
+phv00022944.v2.p2		Sex
+phv00022954.v1.p2		Sex
+phv00070924.v2.p2		Sex
+phv00088044.v1.p1		Sex
+phv00087897.v1.p1		Sex
+phv00024103.v1.p1		Sex
+phv00024162.v1.p1		Sex
+phv00088181.v1.p1		Sex
+phv00158872.v1.p1		Sex
+phv00200477.v1.p1		Sex
+phv00024265.v1.p1		Sex
+phv00034499.v1.p1		Sex
+phv00066360.v1.p1		Sex
+phv00158908.v1.p1		Sex
+phv00044647.v1.p1		Sex
+phv00045171.v1.p1		Sex
+phv00045239.v1.p1		Sex
+phv00051863.v1.p1		Sex
+phv00066544.v1.p1		Sex
+phv00066550.v1.p1		Sex
+phv00051702.v1.p3		Sex
+phv00051770.v1.p3		Sex
+phv00051839.v2.p3		Sex
+phv00058159.v2.p3		Sex
+phv00058191.v2.p3		Sex
+phv00058223.v2.p3		Sex
+phv00058255.v2.p3		Sex
+phv00058287.v2.p3		Sex
+phv00058319.v2.p3		Sex
+phv00058351.v2.p3		Sex
+phv00058383.v2.p3		Sex
+phv00058415.v2.p3		Sex
+phv00058447.v2.p3		Sex
+phv00058479.v2.p3		Sex
+phv00058511.v2.p3		Sex
+phv00058543.v2.p3		Sex
+phv00058575.v2.p3		Sex
+phv00058607.v2.p3		Sex
+phv00058639.v2.p3		Sex
+phv00058671.v2.p3		Sex
+phv00058703.v2.p3		Sex
+phv00058735.v2.p3		Sex
+phv00058767.v2.p3		Sex
+phv00058799.v2.p3		Sex
+phv00058831.v2.p3		Sex
+phv00058863.v2.p3		Sex
+phv00058895.v2.p3		Sex
+phv00058927.v2.p3		Sex
+phv00058959.v2.p3		Sex
+phv00058991.v2.p3		Sex
+phv00059023.v2.p3		Sex
+phv00059055.v2.p3		Sex
+phv00059087.v2.p3		Sex
+phv00059119.v2.p3		Sex
+phv00059151.v2.p3		Sex
+phv00059183.v2.p3		Sex
+phv00059215.v2.p3		Sex
+phv00059247.v2.p3		Sex
+phv00059279.v2.p3		Sex
+phv00059311.v2.p3		Sex
+phv00059343.v2.p3		Sex
+phv00059375.v2.p3		Sex
+phv00059407.v2.p3		Sex
+phv00059439.v2.p3		Sex
+phv00059471.v2.p3		Sex
+phv00059503.v2.p3		Sex
+phv00059535.v2.p3		Sex
+phv00059567.v2.p3		Sex
+phv00059599.v2.p3		Sex
+phv00059631.v2.p3		Sex
+phv00059663.v2.p3		Sex
+phv00059695.v2.p3		Sex
+phv00059727.v2.p3		Sex
+phv00059759.v2.p3		Sex
+phv00059791.v2.p3		Sex
+phv00059823.v2.p3		Sex
+phv00059855.v2.p3		Sex
+phv00059887.v2.p3		Sex
+phv00059919.v2.p3		Sex
+phv00059951.v2.p3		Sex
+phv00059983.v2.p3		Sex
+phv00060015.v2.p3		Sex
+phv00060047.v2.p3		Sex
+phv00060079.v2.p3		Sex
+phv00060111.v2.p3		Sex
+phv00060143.v2.p3		Sex
+phv00060175.v2.p3		Sex
+phv00060207.v2.p3		Sex
+phv00060239.v2.p3		Sex
+phv00060271.v2.p3		Sex
+phv00060303.v2.p3		Sex
+phv00060335.v2.p3		Sex
+phv00060367.v2.p3		Sex
+phv00060399.v2.p3		Sex
+phv00060431.v2.p3		Sex
+phv00060463.v2.p3		Sex
+phv00060495.v2.p3		Sex
+phv00060527.v2.p3		Sex
+phv00060559.v2.p3		Sex
+phv00060591.v2.p3		Sex
+phv00060623.v2.p3		Sex
+phv00060655.v2.p3		Sex
+phv00060687.v2.p3		Sex
+phv00060719.v2.p3		Sex
+phv00060751.v2.p3		Sex
+phv00060783.v2.p3		Sex
+phv00060815.v2.p3		Sex
+phv00060847.v2.p3		Sex
+phv00060879.v2.p3		Sex
+phv00060911.v2.p3		Sex
+phv00060943.v2.p3		Sex
+phv00060975.v2.p3		Sex
+phv00061007.v2.p3		Sex
+phv00061039.v2.p3		Sex
+phv00061071.v2.p3		Sex
+phv00061103.v2.p3		Sex
+phv00061135.v2.p3		Sex
+phv00061167.v2.p3		Sex
+phv00061199.v2.p3		Sex
+phv00061231.v2.p3		Sex
+phv00061263.v2.p3		Sex
+phv00061295.v2.p3		Sex
+phv00061327.v2.p3		Sex
+phv00061359.v2.p3		Sex
+phv00061391.v2.p3		Sex
+phv00061423.v2.p3		Sex
+phv00061455.v2.p3		Sex
+phv00061487.v2.p3		Sex
+phv00061519.v2.p3		Sex
+phv00061551.v2.p3		Sex
+phv00061583.v2.p3		Sex
+phv00061615.v2.p3		Sex
+phv00061647.v2.p3		Sex
+phv00061679.v2.p3		Sex
+phv00061711.v2.p3		Sex
+phv00061743.v2.p3		Sex
+phv00061775.v2.p3		Sex
+phv00061807.v2.p3		Sex
+phv00061839.v2.p3		Sex
+phv00061871.v2.p3		Sex
+phv00061903.v2.p3		Sex
+phv00061935.v2.p3		Sex
+phv00061967.v2.p3		Sex
+phv00061999.v2.p3		Sex
+phv00062031.v2.p3		Sex
+phv00062063.v2.p3		Sex
+phv00062095.v2.p3		Sex
+phv00062127.v2.p3		Sex
+phv00062159.v2.p3		Sex
+phv00062191.v2.p3		Sex
+phv00062223.v2.p3		Sex
+phv00062255.v2.p3		Sex
+phv00062287.v2.p3		Sex
+phv00062319.v2.p3		Sex
+phv00062351.v2.p3		Sex
+phv00062383.v2.p3		Sex
+phv00062415.v2.p3		Sex
+phv00062447.v2.p3		Sex
+phv00062479.v2.p3		Sex
+phv00062511.v2.p3		Sex
+phv00062543.v2.p3		Sex
+phv00062575.v2.p3		Sex
+phv00062607.v2.p3		Sex
+phv00062639.v2.p3		Sex
+phv00062671.v2.p3		Sex
+phv00062703.v2.p3		Sex
+phv00062735.v2.p3		Sex
+phv00062767.v2.p3		Sex
+phv00062799.v2.p3		Sex
+phv00062831.v2.p3		Sex
+phv00062863.v2.p3		Sex
+phv00062895.v2.p3		Sex
+phv00062927.v2.p3		Sex
+phv00062959.v2.p3		Sex
+phv00062991.v2.p3		Sex
+phv00063023.v2.p3		Sex
+phv00063055.v2.p3		Sex
+phv00063087.v2.p3		Sex
+phv00063119.v2.p3		Sex
+phv00063151.v2.p3		Sex
+phv00063183.v2.p3		Sex
+phv00063215.v2.p3		Sex
+phv00063247.v2.p3		Sex
+phv00063279.v2.p3		Sex
+phv00063311.v2.p3		Sex
+phv00063343.v2.p3		Sex
+phv00063375.v2.p3		Sex
+phv00063407.v2.p3		Sex
+phv00063439.v2.p3		Sex
+phv00063471.v2.p3		Sex
+phv00063503.v2.p3		Sex
+phv00063535.v2.p3		Sex
+phv00063567.v2.p3		Sex
+phv00063599.v2.p3		Sex
+phv00063631.v2.p3		Sex
+phv00063663.v2.p3		Sex
+phv00063695.v2.p3		Sex
+phv00063727.v2.p3		Sex
+phv00063759.v2.p3		Sex
+phv00063791.v2.p3		Sex
+phv00063823.v2.p3		Sex
+phv00063855.v2.p3		Sex
+phv00063887.v2.p3		Sex
+phv00063919.v2.p3		Sex
+phv00063951.v2.p3		Sex
+phv00063983.v2.p3		Sex
+phv00064015.v2.p3		Sex
+phv00064047.v2.p3		Sex
+phv00064079.v2.p3		Sex
+phv00064111.v2.p3		Sex
+phv00064143.v2.p3		Sex
+phv00064175.v2.p3		Sex
+phv00064207.v2.p3		Sex
+phv00064239.v2.p3		Sex
+phv00064271.v2.p3		Sex
+phv00064303.v2.p3		Sex
+phv00064335.v2.p3		Sex
+phv00064367.v2.p3		Sex
+phv00064399.v2.p3		Sex
+phv00064431.v2.p3		Sex
+phv00064463.v2.p3		Sex
+phv00064495.v2.p3		Sex
+phv00064527.v2.p3		Sex
+phv00064559.v2.p3		Sex
+phv00064567.v2.p3		Sex
+phv00073845.v1.p3		Sex
+phv00065502.v1.p1		Sex
+phv00066340.v1.p1		Sex
+phv00066354.v1.p1		Sex
+phv00066419.v1.p1		Sex
+phv00066468.v1.p1		Sex
+phv00066507.v1.p1		Sex
+phv00071771.v1.p1		Sex
+phv00066614.v2.p2		Sex
+phv00066640.v2.p1		Sex
+phv00073864.v3.p7		Sex
+phv00073670.v5.p4		Sex
+phv00071843.v1.p1		Sex
+phv00071861.v1.p1		Sex
+phv00070936.v1.p1		Sex
+phv00070997.v1.p1		Sex
+phv00071047.v1.p1		Sex
+phv00071105.v2.p1		Sex
+phv00071155.v2.p1		Sex
+phv00071213.v2.p1		Sex
+phv00071823.v1.p1		Sex
+phv00071338.v1.p1		Sex
+phv00071461.v1.p1		Sex
+phv00071268.v1.p1		Sex
+phv00071321.v1.p1		Sex
+phv00071826.v1.p1		Sex
+phv00071870.v1.p1		Sex
+phv00077312.v1.p1		Sex
+phv00159571.v3.p2		Sex
+phv00073523.v1.p1		Sex
+phv00076306.v1.p1		Sex
+phv00073646.v1.p1		Sex
+phv00077277.v1.p1		Sex
+phv00075993.v2.p1		Sex
+phv00076212.v1.p1		Sex
+phv00076146.v1.p1		Sex
+phv00076097.v1.p1		Sex
+phv00076111.v1.p1		Sex
+phv00076258.v2.p3		Sex
+phv00082617.v1.p1		Sex
+phv00082643.v1.p3		Sex
+phv00084446.v2.p3		Sex
+phv00085782.v2.p3		Sex
+phv00086268.v2.p3		Sex
+phv00086736.v2.p3		Sex
+phv00087073.v1.p3		Sex
+phv00174586.v1.p3		Sex
+phv00175856.v1.p3		Sex
+phv00175877.v1.p3		Sex
+phv00176009.v1.p3		Sex
+phv00219022.v1.p3		Sex
+phv00076466.v1.p1		Sex
+phv00081063.v1.p1		Sex
+phv00163089.v1.p1		Sex
+phv00172057.v1.p2		Sex
+phv00158991.v1.p1		Sex
+phv00158769.v1.p1		Sex
+phv00158770.v1.p1		Sex
+phv00158808.v1.p1		Sex
+phv00158818.v1.p1		Sex
+phv00129642.v1.p1		Sex
+phv00090329.v1.p1		Sex
+phv00160401.v1.p1		Sex
+phv00124471.v1.p1		Sex
+phv00091251.v3.p3		Sex
+phv00091258.v3.p3		Sex
+phv00121765.v2.p1		Sex
+phv00159013.v1.p1		Sex
+phv00090655.v2.p2		Sex
+phv00090824.v1.p1		Sex
+phv00159434.v2.p1		Sex
+phv00159440.v2.p1		Sex
+phv00090595.v1.p1		Sex
+phv00090580.v2.p1		Sex
+phv00090513.v2.p1		Sex
+phv00090620.v3.p2		Sex
+phv00091161.v2.p1		Sex
+phv00090394.v1.p1		Sex
+phv00098405.v1.p1		Sex
+phv00091112.v3.p1		Sex
+phv00090676.v4.p1		Sex
+phv00161301.v2.p2		Sex
+phv00158856.v1.p1		Sex
+phv00110716.v1.p1		Sex
+phv00124464.v1.p1		Sex
+phv00091144.v1.p1		Sex
+phv00173776.v1.p1		Sex
+phv00129605.v1.p1		Sex
+phv00171329.v1.p1		Sex
+phv00091341.v1.p1		Sex
+phv00091486.v1.p1		Sex
+phv00092676.v1.p1		Sex
+phv00092793.v1.p1		Sex
+phv00092928.v1.p1		Sex
+phv00092976.v1.p1		Sex
+phv00094324.v1.p1		Sex
+phv00095960.v1.p1		Sex
+phv00097872.v1.p1		Sex
+phv00161367.v3.p3		Sex
+phv00122007.v1.p1		Sex
+phv00122989.v1.p1		Sex
+phv00125546.v1.p1		Sex
+phv00125635.v1.p1		Sex
+phv00125724.v1.p1		Sex
+phv00125811.v1.p1		Sex
+phv00126012.v1.p1		Sex
+phv00127524.v1.p1		Sex
+phv00098797.v1.p1		Sex
+phv00100302.v1.p1		Sex
+phv00100810.v1.p1		Sex
+phv00101950.v1.p1		Sex
+phv00105644.v1.p1		Sex
+phv00106545.v1.p1		Sex
+phv00108393.v1.p1		Sex
+phv00109144.v1.p1		Sex
+phv00109854.v1.p1		Sex
+phv00197398.v1.p1		Sex
+phv00197400.v1.p1		Sex
+phv00165082.v1.p1		Sex
+phv00121845.v1.p1		Sex
+phv00111930.v1.p1		Sex
+phv00191116.v1.p1		Sex
+phv00191121.v1.p1		Sex
+phv00163159.v1.p1		Sex
+phv00167339.v1.p1		Sex
+phv00112391.v2.p1		Sex
+phv00124352.v1.p1		Sex
+phv00124441.v1.p1		Sex
+phv00142466.v1.p1		Sex
+phv00142487.v1.p1		Sex
+phv00142513.v1.p1		Sex
+phv00142652.v1.p1		Sex
+phv00156548.v1.p1		Sex
+phv00141809.v3.p2		Sex
+phv00141813.v3.p2		Sex
+phv00141836.v1.p1		Sex
+phv00174111.v1.p1		Sex
+phv00154533.v1.p1		Sex
+phv00159402.v1.p1		Sex
+phv00156596.v2.p1		Sex
+phv00159267.v2.p1		Sex
+phv00180571.v1.p1		Sex
+phv00159330.v1.p1		Sex
+phv00158892.v1.p1		Sex
+phv00159001.v1.p1		Sex
+phv00179491.v1.p1		Sex
+phv00159451.v2.p1		Sex
+phv00159249.v1.p1		Sex
+phv00160438.v1.p1		Sex
+phv00191044.v1.p1		Sex
+phv00161583.v1.p1		Sex
+phv00159878.v1.p1		Sex
+phv00182445.v1.p1		Sex
+phv00159417.v1.p1		Sex
+phv00181914.v1.p1		Sex
+phv00160276.v2.p1		Sex
+phv00160299.v1.p1		Sex
+phv00190278.v1.p1		Sex
+phv00190285.v1.p1		Sex
+phv00160468.v1.p1		Sex
+phv00160479.v1.p1		Sex
+phv00167357.v1.p1		Sex
+phv00163064.v1.p1		Sex
+phv00173894.v1.p1		Sex
+phv00171927.v1.p1		Sex
+phv00162707.v1.p1		Sex
+phv00161465.v1.p1		Sex
+phv00163767.v1.p1		Sex
+phv00163391.v1.p1		Sex
+phv00161522.v2.p1		Sex
+phv00172015.v1.p1		Sex
+phv00163921.v1.p1		Sex
+phv00161708.v1.p1		Sex
+phv00163633.v1.p1		Sex
+phv00162679.v1.p1		Sex
+phv00161534.v1.p1		Sex
+phv00173925.v1.p1		Sex
+phv00162961.v1.p1		Sex
+phv00163206.v1.p1		Sex
+phv00167765.v1.p1		Sex
+phv00163237.v1.p1		Sex
+phv00162801.v1.p1		Sex
+phv00162918.v1.p1		Sex
+phv00163221.v1.p1		Sex
+phv00163596.v1.p1		Sex
+phv00169041.v1.p1		Sex
+phv00163736.v1.p1		Sex
+phv00174237.v1.p1		Sex
+phv00163196.v2.p1		Sex
+phv00167535.v1.p1		Sex
+phv00164876.v1.p1		Sex
+phv00181856.v1.p1		Sex
+phv00169062.v4.p1		Sex
+phv00164977.v1.p1		Sex
+phv00167516.v1.p1		Sex
+phv00174312.v1.p1		Sex
+phv00165095.v2.p1		Sex
+phv00171540.v1.p1		Sex
+phv00197289.v1.p1		Sex
+phv00197294.v1.p1		Sex
+phv00190844.v1.p1		Sex
+phv00173383.v1.p1		Sex
+phv00164848.v1.p1		Sex
+phv00164734.v1.p1		Sex
+phv00165136.v1.p1		Sex
+phv00168044.v1.p1		Sex
+phv00165018.v1.p1		Sex
+phv00167303.v1.p1		Sex
+phv00165039.v1.p1		Sex
+phv00171014.v1.p1		Sex
+phv00171913.v1.p1		Sex
+phv00165116.v1.p1		Sex
+phv00167383.v1.p1		Sex
+phv00167279.v1.p1		Sex
+phv00167701.v1.p1		Sex
+phv00165551.v1.p1		Sex
+phv00167559.v2.p2		Sex
+phv00167582.v7.p2		Sex
+phv00167605.v7.p2		Sex
+phv00167612.v2.p2		Sex
+phv00167620.v7.p2		Sex
+phv00167647.v5.p2		Sex
+phv00167654.v5.p2		Sex
+phv00167661.v4.p2		Sex
+phv00167668.v5.p2		Sex
+phv00167461.v1.p1		Sex
+phv00168002.v2.p1		Sex
+phv00167992.v1.p1		Sex
+phv00167913.v1.p1		Sex
+phv00167981.v1.p1		Sex
+phv00167779.v1.p1		Sex
+phv00167790.v1.p1		Sex
+phv00167971.v1.p1		Sex
+phv00167961.v1.p1		Sex
+phv00171371.v1.p1		Sex
+phv00173611.v1.p1		Sex
+phv00173612.v1.p1		Sex
+phv00173613.v1.p1		Sex
+phv00173631.v1.p1		Sex
+phv00173632.v1.p1		Sex
+phv00173633.v1.p1		Sex
+phv00173658.v1.p1		Sex
+phv00173659.v1.p1		Sex
+phv00173660.v1.p1		Sex
+phv00173684.v1.p1		Sex
+phv00173685.v1.p1		Sex
+phv00173686.v1.p1		Sex
+phv00173712.v1.p1		Sex
+phv00173713.v1.p1		Sex
+phv00173714.v1.p1		Sex
+phv00173740.v1.p1		Sex
+phv00173741.v1.p1		Sex
+phv00168012.v1.p1		Sex
+phv00168106.v1.p1		Sex
+phv00171343.v1.p1		Sex
+phv00171962.v1.p1		Sex
+phv00172003.v1.p1		Sex
+phv00168116.v2.p1		Sex
+phv00172142.v1.p1		Sex
+phv00171448.v2.p2		Sex
+phv00173359.v1.p1		Sex
+phv00171414.v1.p1		Sex
+phv00171438.v1.p1		Sex
+phv00171948.v1.p1		Sex
+phv00171554.v1.p1		Sex
+phv00174214.v1.p2		Sex
+phv00171496.v1.p1		Sex
+phv00173161.v1.p1		Sex
+phv00182063.v1.p1		Sex
+phv00173303.v1.p1		Sex
+phv00173789.v3.p1		Sex
+phv00190993.v1.p1		Sex
+phv00173796.v1.p1		Sex
+phv00173803.v1.p1		Sex
+phv00173835.v1.p1		Sex
+phv00173541.v1.p1		Sex
+phv00174188.v1.p1		Sex
+phv00174271.v1.p1		Sex
+phv00173412.v1.p1		Sex
+phv00179584.v1.p1		Sex
+phv00173910.v1.p1		Sex
+phv00179509.v1.p1		Sex
+phv00174205.v1.p1		Sex
+phv00179539.v1.p1		Sex
+phv00179565.v1.p1		Sex
+phv00196394.v1.p1		Sex
+phv00174401.v1.p1		Sex
+phv00174227.v1.p1		Sex
+phv00178124.v1.p1		Sex
+phv00174531.v1.p1		Sex
+phv00174357.v1.p1		Sex
+phv00174498.v1.p1		Sex
+phv00174514.v1.p1		Sex
+phv00179053.v1.p1		Sex
+phv00181331.v1.p1		Sex
+phv00190468.v1.p1		Sex
+phv00181166.v1.p1		Sex
+phv00182046.v1.p1		Sex
+phv00190530.v1.p1		Sex
+phv00195790.v1.p1		Sex
+phv00181136.v1.p1		Sex
+phv00190857.v2.p2		Sex
+phv00190477.v2.p1		Sex
+phv00182022.v1.p1		Sex
+phv00194003.v1.p1		Sex
+phv00194909.v1.p1		Sex
+phv00191011.v1.p1		Sex
+phv00190495.v1.p1		Sex
+phv00191101.v1.p1		Sex
+phv00195712.v1.p1		Sex
+phv00195824.v1.p1		Sex
+phv00190510.v1.p1		Sex
+phv00190672.v1.p1		Sex
+phv00191155.v1.p1		Sex
+phv00190652.v1.p1		Sex
+phv00191073.v1.p1		Sex
+phv00191076.v1.p1		Sex
+phv00190988.v1.p1		Sex
+phv00201753.v1.p1		Sex
+phv00195732.v1.p1		Sex
+phv00192256.v1.p1		Sex
+phv00192229.v1.p1		Sex
+phv00196258.v1.p1		Sex
+phv00196142.v1.p1		Sex
+phv00193922.v1.p1		Sex
+phv00193929.v1.p1		Sex
+phv00195886.v1.p1		Sex
+phv00196101.v1.p1		Sex
+phv00193968.v1.p1		Sex
+phv00195533.v1.p1		Sex
+phv00195374.v1.p1		Sex
+phv00195566.v2.p1		Sex
+phv00195518.v2.p1		Sex
+phv00195521.v1.p1		Sex
+phv00201601.v1.p1		Sex
+phv00195631.v1.p1		Sex
+phv00195584.v1.p1		Sex
+phv00195642.v1.p1		Sex
+phv00195755.v1.p1		Sex
+phv00195956.v1.p1		Sex
+phv00195915.v1.p1		Sex
+phv00196373.v1.p1		Sex
+phv00196119.v1.p1		Sex
+phv00195982.v1.p1		Sex
+phv00195931.v1.p1		Sex
+phv00197132.v1.p1		Sex
+phv00196838.v1.p1		Sex
+phv00196926.v1.p1		Sex
+phv00200330.v1.p1		Sex
+phv00201854.v1.p1		Sex
+phv00196236.v1.p1		Sex
+phv00196481.v1.p1		Sex
+phv00196901.v1.p1		Sex
+phv00220907.v1.p1		Sex
+phv00197161.v1.p1		Sex
+phv00200320.v1.p1		Sex
+phv00200346.v1.p1		Sex
+phv00200351.v1.p1		Sex
+phv00217716.v1.p1		Sex
+phv00200111.v1.p1		Sex
+phv00200422.v1.p1		Sex
+phv00201985.v1.p1		Sex
+phv00201810.v1.p1		Sex
+phv00201446.v1.p1		Sex
+phv00200964.v1.p1		Sex
+phv00201670.v1.p1		Sex
+phv00201612.v1.p1		Sex
+phv00202103.v1.p1		Sex
+phv00202582.v1.p1		Sex
+phv00202587.v1.p1		Sex
+phv00201726.v1.p1		Sex
+phv00202272.v1.p1		Sex
+phv00201842.v1.p1		Sex
+phv00201874.v1.p1		Sex
+phv00202713.v1.p1		Sex
+phv00202080.v1.p1		Sex
+phv00202243.v1.p1		Sex
+phv00202613.v1.p1		Sex
+phv00202325.v1.p1		Sex
+phv00202353.v1.p1		Sex
+phv00202568.v1.p1		Sex
+phv00202545.v1.p1		Sex
+phv00217799.v1.p1		Sex
+phv00217805.v1.p1		Sex
+phv00217577.v1.p1		Sex
+phv00202812.v1.p1		Sex
+phv00217692.v1.p1		Sex
+phv00217701.v1.p1		Sex
+phv00219152.v1.p1		Sex
+phv00221156.v1.p1		Sex
+phv00181689.v1.p1		Sex
+phv00181692.v1.p1		Sex
+phv00181695.v1.p1		Sex
+phv00181698.v1.p1		Sex
+phv00181701.v1.p1		Sex
+phv00181704.v1.p1		Sex
+phv00181707.v1.p1		Sex
+phv00181710.v1.p1		Sex
+phv00181713.v1.p1		Sex
+phv00181716.v1.p1		Sex
+phv00181719.v1.p1		Sex
+phv00181722.v1.p1		Sex
+phv00181725.v1.p1		Sex
+phv00181728.v1.p1		Sex
+phv00181731.v1.p1		Sex
+phv00181734.v1.p1		Sex
+phv00181737.v1.p1		Sex
+phv00099175.v1.p1		Sex
+phv00099180.v1.p1		Sex
+phv00099185.v1.p1		Sex
+phv00099190.v1.p1		Sex
+phv00099195.v1.p1		Sex
+phv00099200.v1.p1		Sex
+phv00099205.v1.p1		Sex
+phv00099210.v1.p1		Sex
+phv00099215.v1.p1		Sex
+phv00099220.v1.p1		Sex
+phv00106218.v1.p1		Sex
+phv00106226.v1.p1		Sex
+phv00106234.v1.p1		Sex
+phv00106242.v1.p1		Sex
+phv00106250.v1.p1		Sex
+phv00106258.v1.p1		Sex
+phv00106266.v1.p1		Sex
+phv00106274.v1.p1		Sex
+phv00106282.v1.p1		Sex
+phv00106290.v1.p1		Sex
+phv00011110.v2.p2		Sex
+phv00088048.v1.p1		Sex
+phv00044721.v1.p1		Sex
+phv00044722.v1.p1		Sex
+phv00044723.v1.p1		Sex
+phv00044724.v1.p1		Sex
+phv00044725.v1.p1		Sex
+phv00044726.v1.p1		Sex
+phv00044727.v1.p1		Sex
+phv00044740.v1.p1		Sex
+phv00110442.v1.p1		Sex
+phv00110445.v1.p1		Sex
+phv00110448.v1.p1		Sex
+phv00110451.v1.p1		Sex
+phv00110454.v1.p1		Sex
+phv00110457.v1.p1		Sex
+phv00110460.v1.p1		Sex
+phv00110463.v1.p1		Sex
+phv00110466.v1.p1		Sex
+phv00110469.v1.p1		Sex
+phv00110472.v1.p1		Sex
+phv00161695.v2.p2		Sex
+phv00159980.v1.p1		Sex
+phv00021228.v4.p9		Sex
+phv00175940.v1.p3		Sex
+phv00204449.v1.p1		Sex
+phv00204634.v1.p1		Sex
+phv00204711.v1.p1		Sex
+phv00204963.v1.p1		Sex
+phv00207078.v1.p1		Sex
+phv00208795.v1.p1		Sex
+phv00190418.v1.p1		Sex
+phv00164565.v2.p9		Sex
+phv00164712.v1.p1		Sex
+phv00218099.v1.p1		Sex
+phv00191088.v2.p1		Sex
+phv00192277.v2.p2		Sex
+phv00192282.v2.p2		Sex
+phv00195357.v2.p2		Sex
+phv00218087.v1.p2		Sex
+phv00217489.v1.p1		Sex
+phv00217501.v1.p1		Sex
+phv00217516.v1.p1		Sex
+phv00197223.v2.p1		Sex
+phv00197228.v2.p1		Sex
+phv00200346.v2.p1		Sex
+phv00222296.v1.p1		Sex
+phv00222305.v1.p1		Sex
+phv00201705.v1.p1		Sex
+phv00217674.v1.p1		Sex
+phv00217592.v1.p1		Sex
+phv00217635.v1.p1		Sex
+phv00220928.v1.p1		Sex
+phv00221173.v1.p1		Sex
+phv00221179.v1.p1		Sex
+phv00219205.v1.p1		Sex
+phv00221198.v1.p1		Sex
+phv00221148.v1.p1		Sex
+phv00222541.v1.p1		Sex
+phv_id	PhenX_id	CDE_primary_name
+phv00209698.v1.p1		Have you had 2 or more such episodes of wheezing
+phv00209771.v1.p1		Have you had 2 or more such episodes of wheezing
+phv00154658.v2.p2		Have you had 2 or more such episodes of wheezing
+phv00154704.v2.p2		Have you had 2 or more such episodes of wheezing
+phv00154750.v2.p2		Have you had 2 or more such episodes of wheezing
+phv00154796.v2.p2		Have you had 2 or more such episodes of wheezing
+phv00154842.v2.p2		Have you had 2 or more such episodes of wheezing
+phv_id	PhenX_id	CDE_primary_name
+phv00223376.v1.p1		In the last Mo, how often have you been able to control irritations in your life
+phv00224440.v1.p1		In the last Mo, how often have you been able to control irritations in your life
+phv_id	PhenX_id	CDE_primary_name
+phv00017012.v1.p1		At what age was your first attack of bronchitis
+phv00051923.v1.p1		At what age was your first attack of bronchitis
+phv00159719.v3.p2		At what age was your first attack of bronchitis
+phv00083543.v1.p3		At what age was your first attack of bronchitis
+phv00083778.v2.p3		At what age was your first attack of bronchitis
+phv00087769.v1.p3		At what age was your first attack of bronchitis
+phv00122247.v1.p1		At what age was your first attack of bronchitis
+phv00113369.v2.p2		At what age was your first attack of bronchitis
+phv00117057.v2.p2		At what age was your first attack of bronchitis
+phv00118537.v2.p2		At what age was your first attack of bronchitis
+phv00119928.v2.p2		At what age was your first attack of bronchitis
+phv_id	PhenX_id	CDE_primary_name
+phv00066325.v1.p1		Did you ever get a skin rash from sun exposure
+phv00181782.v1.p1		Did you ever get a skin rash from sun exposure
+phv00180428.v1.p1		Did you ever get a skin rash from sun exposure
+phv_id	PhenX_id	CDE_primary_name
+phv00181809.v1.p1		On a typical weekend D in the summer, about how many H did you generally spend in the mid-day sun
+phv00181807.v1.p1		On a typical weekend D in the summer, about how many H did you generally spend in the mid-day sun
+phv00181810.v1.p1		On a typical weekend D in the summer, about how many H did you generally spend in the mid-day sun
+phv00181808.v1.p1		On a typical weekend D in the summer, about how many H did you generally spend in the mid-day sun
+phv_id	PhenX_id	CDE_primary_name
+phv00078644.v4.p3		Have you ever had both of your tubes tied, cut, or removed
+phv00113007.v2.p2		Have you ever had both of your tubes tied, cut, or removed
+phv00114355.v2.p2		Have you ever had both of your tubes tied, cut, or removed
+phv00117101.v2.p2		Have you ever had both of your tubes tied, cut, or removed
+phv00118575.v2.p2		Have you ever had both of your tubes tied, cut, or removed
+phv00119951.v2.p2		Have you ever had both of your tubes tied, cut, or removed
+phv00179625.v1.p1		Have you ever had both of your tubes tied, cut, or removed
+phv_id	PhenX_id	CDE_primary_name
+phv00207722.v1.p1		How many times a night do you usually get up to urinate, pass water
+phv_id	PhenX_id	CDE_primary_name
+phv00159663.v3.p2		Do you usually bring up phlegm at all during the rest of the D or at night
+phv00209689.v1.p1		Do you usually bring up phlegm at all during the rest of the D or at night
+phv00122117.v1.p1		Do you usually bring up phlegm at all during the rest of the D or at night
+phv00113344.v2.p2		Do you usually bring up phlegm at all during the rest of the D or at night
+phv00107832.v1.p1		Do you usually bring up phlegm at all during the rest of the D or at night
+phv00154651.v2.p2		Do you usually bring up phlegm at all during the rest of the D or at night
+phv00154697.v2.p2		Do you usually bring up phlegm at all during the rest of the D or at night
+phv00154743.v2.p2		Do you usually bring up phlegm at all during the rest of the D or at night
+phv00154789.v2.p2		Do you usually bring up phlegm at all during the rest of the D or at night
+phv00154835.v2.p2		Do you usually bring up phlegm at all during the rest of the D or at night
+phv_id	PhenX_id	CDE_primary_name
+phv00001836.v1.p9		Have you ever smoked part or all of a cigarette
+phv00002055.v1.p9		Have you ever smoked part or all of a cigarette
+phv00002981.v1.p9		Have you ever smoked part or all of a cigarette
+phv00007735.v5.p9		Have you ever smoked part or all of a cigarette
+phv00015779.v1.p1		Have you ever smoked part or all of a cigarette
+phv00035224.v1.p1		Have you ever smoked part or all of a cigarette
+phv00054532.v1.p1		Have you ever smoked part or all of a cigarette
+phv00020407.v1.p2		Have you ever smoked part or all of a cigarette
+phv00034773.v1.p2		Have you ever smoked part or all of a cigarette
+phv00022818.v1.p1		Have you ever smoked part or all of a cigarette
+phv00080701.v1.p1		Have you ever smoked part or all of a cigarette
+phv00080712.v1.p1		Have you ever smoked part or all of a cigarette
+phv00080722.v1.p1		Have you ever smoked part or all of a cigarette
+phv00066376.v1.p1		Have you ever smoked part or all of a cigarette
+phv00071633.v1.p1		Have you ever smoked part or all of a cigarette
+phv00159747.v3.p2		Have you ever smoked part or all of a cigarette
+phv00073525.v1.p1		Have you ever smoked part or all of a cigarette
+phv00076008.v2.p1		Have you ever smoked part or all of a cigarette
+phv00163094.v1.p1		Have you ever smoked part or all of a cigarette
+phv00129663.v1.p1		Have you ever smoked part or all of a cigarette
+phv00090381.v1.p1		Have you ever smoked part or all of a cigarette
+phv00204626.v1.p1		Have you ever smoked part or all of a cigarette
+phv00204758.v1.p1		Have you ever smoked part or all of a cigarette
+phv00204866.v1.p1		Have you ever smoked part or all of a cigarette
+phv00204974.v1.p1		Have you ever smoked part or all of a cigarette
+phv00207368.v1.p1		Have you ever smoked part or all of a cigarette
+phv00208996.v1.p1		Have you ever smoked part or all of a cigarette
+phv00209072.v1.p1		Have you ever smoked part or all of a cigarette
+phv00122340.v1.p1		Have you ever smoked part or all of a cigarette
+phv00120699.v2.p2		Have you ever smoked part or all of a cigarette
+phv00098844.v1.p1		Have you ever smoked part or all of a cigarette
+phv00100372.v1.p1		Have you ever smoked part or all of a cigarette
+phv00105143.v1.p1		Have you ever smoked part or all of a cigarette
+phv00105889.v1.p1		Have you ever smoked part or all of a cigarette
+phv00124455.v1.p1		Have you ever smoked part or all of a cigarette
+phv00142480.v1.p1		Have you ever smoked part or all of a cigarette
+phv00159339.v1.p1		Have you ever smoked part or all of a cigarette
+phv00179628.v1.p1		Have you ever smoked part or all of a cigarette
+phv00162837.v1.p1		Have you ever smoked part or all of a cigarette
+phv00162913.v1.p1		Have you ever smoked part or all of a cigarette
+phv00192257.v1.p1		Have you ever smoked part or all of a cigarette
+phv00200573.v1.p1		Have you ever smoked part or all of a cigarette
+phv_id	PhenX_id	CDE_primary_name
+phv00119406.v2.p2		During these episodes of overeating and loss of control did you eat alone because you were embarrassed by how much you were eating
+phv_id	PhenX_id	CDE_primary_name
+phv00015932.v1.p1		Have you ever tried to stop or cut down on this drug but found that you couldn't
+phv00015931.v1.p1		Have you ever tried to stop or cut down on this drug but found that you couldn't
+phv00015930.v1.p1		Have you ever tried to stop or cut down on this drug but found that you couldn't
+phv00015933.v1.p1		Have you ever tried to stop or cut down on this drug but found that you couldn't
+phv00015934.v1.p1		Have you ever tried to stop or cut down on this drug but found that you couldn't
+phv_id	PhenX_id	CDE_primary_name
+phv00116294.v2.p2		How many Hs do you normally sleep
+phv_id	PhenX_id	CDE_primary_name
+phv00181512.v1.p1		Hand dominance - hold a racquet
+phv_id	PhenX_id	CDE_primary_name
+phv00012607.v1.p1		Have you often used marijuana more frequently or in larger amounts than you intended to
+phv00015880.v1.p1		Have you often used marijuana more frequently or in larger amounts than you intended to
+phv00018334.v1.p1		Have you often used marijuana more frequently or in larger amounts than you intended to
+phv00052681.v1.p1		Have you often used marijuana more frequently or in larger amounts than you intended to
+phv00022902.v1.p1		Have you often used marijuana more frequently or in larger amounts than you intended to
+phv00162857.v1.p1		Have you often used marijuana more frequently or in larger amounts than you intended to
+phv_id	PhenX_id	CDE_primary_name
+phv00175599.v1.p3		Gas flow.oxygen
+phv00177033.v1.p3		Gas flow.oxygen
+phv_id	PhenX_id	CDE_primary_name
+phv00159661.v3.p2		Do you usually bring up phlegm like this as much as twice a D, 4 or more D of the W
+phv00209687.v1.p1		Do you usually bring up phlegm like this as much as twice a D, 4 or more D of the W
+phv00209765.v1.p1		Do you usually bring up phlegm like this as much as twice a D, 4 or more D of the W
+phv00122115.v1.p1		Do you usually bring up phlegm like this as much as twice a D, 4 or more D of the W
+phv00122474.v1.p1		Do you usually bring up phlegm like this as much as twice a D, 4 or more D of the W
+phv00113342.v2.p2		Do you usually bring up phlegm like this as much as twice a D, 4 or more D of the W
+phv00128336.v1.p1		Do you usually bring up phlegm like this as much as twice a D, 4 or more D of the W
+phv00107830.v1.p1		Do you usually bring up phlegm like this as much as twice a D, 4 or more D of the W
+phv00154649.v2.p2		Do you usually bring up phlegm like this as much as twice a D, 4 or more D of the W
+phv00154695.v2.p2		Do you usually bring up phlegm like this as much as twice a D, 4 or more D of the W
+phv00154741.v2.p2		Do you usually bring up phlegm like this as much as twice a D, 4 or more D of the W
+phv00154787.v2.p2		Do you usually bring up phlegm like this as much as twice a D, 4 or more D of the W
+phv00154833.v2.p2		Do you usually bring up phlegm like this as much as twice a D, 4 or more D of the W
+phv_id	PhenX_id	CDE_primary_name
+phv00012551.v1.p1		Did taking a drink to keep from having any of these problems, or to make them go away, happen 3 times or more
+phv00045094.v1.p1		Did taking a drink to keep from having any of these problems, or to make them go away, happen 3 times or more
+phv_id	PhenX_id	CDE_primary_name
+phv00020968.v4.p9		About how old were you when you first started drinking, not counting small tastes or sips of alcohol
+phv00015632.v1.p1		About how old were you when you first started drinking, not counting small tastes or sips of alcohol
+phv00018205.v1.p1		About how old were you when you first started drinking, not counting small tastes or sips of alcohol
+phv00052614.v1.p1		About how old were you when you first started drinking, not counting small tastes or sips of alcohol
+phv00022938.v1.p1		About how old were you when you first started drinking, not counting small tastes or sips of alcohol
+phv00044770.v1.p1		About how old were you when you first started drinking, not counting small tastes or sips of alcohol
+phv00181346.v1.p1		About how old were you when you first started drinking, not counting small tastes or sips of alcohol
+phv00162828.v1.p1		About how old were you when you first started drinking, not counting small tastes or sips of alcohol
+phv00217597.v1.p1		About how old were you when you first started drinking, not counting small tastes or sips of alcohol
+phv_id	PhenX_id	CDE_primary_name
+phv00120566.v2.p2		On average, during the last Y, how many D were there in a typical menstrual cycle, that is, from the beginning of bleeding of one menstrual period to the beginning of bleeding of the next period
+phv_id	PhenX_id	CDE_primary_name
+phv00001049.v1.p10		Was the participant fasting
+phv00001201.v1.p10		Was the participant fasting
+phv00001378.v1.p10		Was the participant fasting
+phv00010137.v5.p10		Was the participant fasting
+phv00010145.v5.p10		Was the participant fasting
+phv00227070.v1.p10		Was the participant fasting
+phv00016768.v1.p1		Was the participant fasting
+phv00019178.v1.p1		Was the participant fasting
+phv00053222.v1.p1		Was the participant fasting
+phv00082696.v1.p3		Was the participant fasting
+phv00129608.v1.p1		Was the participant fasting
+phv00099347.v1.p1		Was the participant fasting
+phv00173314.v1.p1		Was the participant fasting
+phv_id	PhenX_id	CDE_primary_name
+phv00119403.v2.p2		During these episodes of overeating and loss of control did you eat much more rapidly than normal
+phv_id	PhenX_id	CDE_primary_name
+phv00121981.v1.p1		Patient number
+phv00209159.v1.p1		Patient number
+phv00209195.v1.p1		Patient number
+phv00209494.v1.p1		Patient number
+phv00209596.v1.p1		Patient number
+phv00209677.v1.p1		Patient number
+phv_id	PhenX_id	CDE_primary_name
+phv00034434.v1.p1		Current pubic hair stage
+phv00071004.v1.p1		Current pubic hair stage
+phv00071112.v2.p1		Current pubic hair stage
+phv00071220.v2.p1		Current pubic hair stage
+phv00195604.v1.p1		Current pubic hair stage
+phv00221104.v1.p1		Current pubic hair stage
+phv00221127.v1.p1		Current pubic hair stage
+phv_id	PhenX_id	CDE_primary_name
+phv00163249.v1.p1		Body height^at age 25
+phv_id	PhenX_id	CDE_primary_name

@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
-# from glob import glob # only for windows
+#from glob import glob # only for windows
 import sys
 import xml.etree.ElementTree as ET
 import re
 
 tree_list = sys.argv[1:] # glob(sys.argv[1])
+print(tree_list)
 
 def find_dbGaPs(root):
     dbGaPs = {}
