@@ -1,6 +1,6 @@
 #' Downloads dbGaPdb sqlite from temp link and unzips it
 #'
-#' @import R.Utils
+#' @import R.utils
 #' @export
 pull_dbGaPdb_sqlite <- function(local_path=tempdir(),
                                 sqlite_db_name='dbGaPdb.sqlite',
