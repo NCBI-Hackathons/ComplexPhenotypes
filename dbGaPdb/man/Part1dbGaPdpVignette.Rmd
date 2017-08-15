@@ -11,14 +11,30 @@ output: html_document
 
 SRAdb allows for efficient searching through metadata associated with files deposited to the Sequence Read Archives (SRA). dpGaP contains studies with genomic data that are found in SRA. To access the metadata of dpGaP files in SRA, download SRAdb and search the 'sra' table for any rows that contain accessions starting with 'phs' found in the 'study_alias' column. 
 
-Download SRAdb (Make sure you have >30GB of free drive space!)
+Load libraries
 
-```{r, message=FALSE, eval=FALSE}
+```{r, message=FALSE}
 library(SRAdb)
-
-if(!file.exists('~/SRAmetadb.sqlite')) sqlfile <<- getSRAdbFile(destdir='~/',destfile='SRAmetadb.sqlite.gz')
-sqlfile = '~/SRAmetadb.sqlite'
+library(tidyverse)
+library(stringr)
 ```
 
+Download and load SRAdb (Make sure you have >30GB of free drive space!)
 
-### sra_con <- dbConnect(SQLite(),sqlfile)
+```{r, message=FALSE, eval=FALSE}
+if(!file.exists('~/SRAmetadb.sqlite')) sqlfile <<- getSRAdbFile(destdir='~/',destfile='SRAmetadb.sqlite.gz')
+sqlfile = '~/SRAmetadb.sqlite'
+sra_con <- dbConnect(SQLite(), sqlfile)
+```
+
+Load in dbGaPdb metadata
+You have to set `sqlfile` to the path of the sqlite file on your computer
+```{r}
+### load('../data/demo_dbgap_metadata.Rdata') 
+### Would this already be loaded in by the bioconductor package?
+```
+Query SRAdb for any files containing references to dbGaP
+```{r, eval=FALSE}
+dbGaP_SRA <- dbGetQuery(sra_con, "select * from study where study_alias like 'phs%'")
+dim(dbGaP_SRA)
+```
