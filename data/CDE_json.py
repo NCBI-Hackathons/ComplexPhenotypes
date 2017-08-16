@@ -2,7 +2,9 @@
 
 import json
 import sys
+import pprint
 
-parsed_tree = json.loads(sys.argv[1])
+tree = open(sys.argv[1])
+parsed_tree = json.load(tree)
 
-print(parsed_tree["tinyID"])
+pprint.pprint(parsed_tree[0])
