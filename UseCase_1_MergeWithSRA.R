@@ -1,4 +1,4 @@
-#Use Case Number 1: Cross reference this GaP database with SRA
+#Use Case Number 2: Link to SRAdb
       #Find what GaP studies exist in terms of their data types categorized in SRA
 
 #Make a graph like this, this one has fake data:
