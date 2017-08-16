@@ -1,0 +1,157 @@
+---
+title: "Selecting dbGaP studies using metadata queries"
+resource_files:
+- demo_dbgap_metadata.Rdata
+runtime: shiny
+output:
+  flexdashboard::flex_dashboard:
+    social: menu
+---
+
+Results
+============================================
+
+
+Column {.sidebar}
+-----------------------------------------------------------------------
+
+  
+```{r}
+
+
+#Load the proper libraries
+Sys.setenv(RSTUDIO_PANDOC="/usr/lib/rstudio/bin/pandoc")
+enableBookmarking()
+library("tm")
+library("tidyverse")
+library("shiny")
+library("DT")
+library("RSQLite")
+library("dbplyr")
+library(wordcloud)
+#Load local data
+#load("demo_dbgap_metadata.Rdata")
+
+#Collect user input to later subset the data
+inputPanel(
+
+  selectizeInput("dat", label = h4("Data Type"), c("", "RNA-seq", "Whole Genome Sequencing", "Whole Exome Sequencing")),
+
+  selectizeInput("pheno", label = h4("Phenotype"), c("", "asthma", "insomnia", "hypertension")),
+  
+  selectizeInput("n", label = h4("Minimum sample size"), c(0,10,50,100,500,1000,5000,10000), selected = 10000)
+  
+)
+dbGaPdb <- src_sqlite('dbGaPdb.sqlite')
+study_variable_info_SQL <<- tbl(dbGaPdb, "study_variable_info")
+
+```
+
+
+Column
+-----------------------------------------------------------------------
+
+Studies containing your queries:
+
+```{r}
+
+
+#Make a subset of the data based on the search terms
+subset_dat <- reactive({
+
+inph <- paste0("%",input$pheno,"%")
+indt <- paste0("%",input$dat,"%")
+inn <- input$n
+
+#  tables$study_variable_info[(as.numeric(tables$study_variable_info$male_count) + as.numeric(tables$study_variable_info$female_count) > as.numeric(input$n)),] %>% filter(grepl(input$pheno, description, ignore.case=T)&grepl(input$dat ,description, ignore.case=T))
+  
+study_variable_info_SQL %>% mutate(mf_count = as.numeric(male_count) + as.numeric(female_count)) %>% filter(mf_count > as.numeric(inn)) %>% filter(description %LIKE% inph) %>% filter(description %LIKE% indt) %>% data.frame()
+  
+  #study_variable_info_SQL %>% mutate(mf_count = as.numeric(male_count) + as.numeric(female_count)) %>% filter(mf_count > 10000) %>% filter(grepl("asthma", description, ignore.case=T)&grepl("" ,description, ignore.case=T)) %>% head() %>% data.frame()
+   
+})
+
+
+#Render a data table of the subsetted data
+renderDataTable({
+
+  subset_dat()
+  
+})
+
+
+```
+
+
+Word Cloud
+========================================
+
+
+```{r}
+
+#study_dataset_info_SQL <- tbl(dbGaPdb, "study_dataset_info")
+
+df_sdis <- tbl(dbGaPdb, 'study_dataset_info') %>% select(study_accession, description) %>% data.frame()
+
+
+out_ccat <- reactive({
+
+inph <- paste0("%",input$pheno,"%")
+indt <- paste0("%",input$dat,"%")
+inn <- input$n
+  
+to_filt <- study_variable_info_SQL %>% mutate(mf_count = as.numeric(male_count) + as.numeric(female_count)) %>% filter(mf_count > as.numeric(inn)) %>% filter(description %LIKE% inph) %>% filter(description %LIKE% indt) %>% data.frame()
+
+vec_to_filt <- to_filt$study_accession
+
+filt <- df_sdis[df_sdis$study_accession %in% vec_to_filt,]
+
+
+ccat <- ""
+
+for (each in filt$description){
+  ccat <- paste0(ccat, each)
+}
+
+new_ccat <- gsub('quot','',ccat)
+jeopCorpus <- Corpus(VectorSource(new_ccat))
+jeopCorpus <- tm_map(jeopCorpus, PlainTextDocument)
+jeopCorpus <- tm_map(jeopCorpus, removeWords, stopwords('english'))
+
+})
+
+
+renderPlot({
+  
+  wordcloud(out_ccat(), min.freq = 5, max.words = 100, colors=brewer.pal(6,"Dark2"), scale=c(6,2), random.order = FALSE)
+  
+})
+
+```
+
+
+
+Download
+========================================
+
+
+Column
+-----------------------------------------------------------------------
+
+
+
+
+```{r}
+
+
+#Download page
+downloadHandler(filename = function(){
+  ("dbGaPdb_query.csv")},
+  content = function(file) {
+    write.csv(subset_dat(), file)
+  }
+
+)
+
+
+```
