@@ -1,9 +1,15 @@
-#!/usr/bin/python3
+#!/usr/bin/python
+#tested on 2.7.13 and 3.6.0
 
 import json
-import sys
 import re
-import pprint
+import argparse
+
+#usage = python3 CDE_lite_json.py *.json
+parser = argparse.ArgumentParser()
+parser.add_argument("json", help="json export from https://cde.nlm.nih.gov/cde/search")
+args = parser.parse_args()
+print(args.json)
 
 #gets dbGaP crossrefs from dataSets block
 def find_dbGaPs(tree_root, index):
@@ -40,35 +46,9 @@ def output_tsv(outfile, dbGaPs, primary_name):
         outfile.write(id_set + '\t' + dbGaPs[id_set] + '\t' + primary_name + '\n')
     return
 
-#recursive loop through element blocks for parent:child pairs
-def recursive_parent_match(tree_root, parentchild, parent):
-    pprint.pprint(tree_root)
-    if not tree_root[0]:
-        for n in range(1,len(tree_root)):
-            parentchild[parent] = tree_root['name']
-    else:
-        for n in range(1,len(tree_root)):
-            child = tree_root['name']
-            parentchild[parent] = child
-            new_tree_root = tree_root[0]['elements']
-            recursive_parent_match(new_tree_root, parentchild, child)
-    
-#setup recursive loop by getting to right depth in element block
-def find_element_tree(tree_root, index):
-    parentchild = {}
-    if tree_root[index]['classification'][0]['stewardOrg']['name'] == 'PhenX':
-        new_tree_root = tree_root[index]['classification'][0]['elements'][0]['elements']
-        recursive_parent_match(new_tree_root, parentchild, 'Domains')
-    pprint.pprint(parentchild)
-    return parentchild
-
 outfile = open("CDE_table.tsv", "w")
 outfile.write('phv_id\tPhenX_id\tCDE_primary_name\n')
-tree = open(sys.argv[1])
+tree = open(args.json)
 parsed_tree = json.load(tree)
 for index in range(len(parsed_tree)):
     output_tsv(outfile, find_dbGaPs(parsed_tree, index), find_name(parsed_tree, index))
-    find_element_tree(parsed_tree, index)
-
-#pprint.pprint(parsed_tree[0:2])
-pprint.pprint(parsed_tree[0]['classification'][0]['elements'][0]['elements'][0]['elements'])

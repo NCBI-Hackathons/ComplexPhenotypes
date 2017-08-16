@@ -1,0 +1,28 @@
+---
+title: "Query dbGap Metadata"
+author: "David McGaughey"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+Here is a brief introduction on how to retrieve the sqlite database and do some basic queries.
+
+
+# Load libraries
+```{r}
+library(RSQLite)
+library(tidyverse)
+library(dbGaPdb)
+```
+
+
+# Pull the dbGaPdb sqlite database
+The gzip'ed sqlite database is a bit over 100mb.
+```{r}
+dbGaPdb_path <- pull_dbGaPdb_sqlite()
+```

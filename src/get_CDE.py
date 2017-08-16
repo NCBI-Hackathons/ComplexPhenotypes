@@ -17,7 +17,7 @@ def find_dbGaPs(root):
         id_set = dataSets.find('id').text or "not found"
         if source == "dbGaP" and notes.startswith('PhenX') and id_set != "not found":
             dbGaPs[id_set] = phenx_id
-    print(dbGaPs)
+    print(dbGaPs) # debug
     return dbGaPs
 
 def find_PhenX(root):
@@ -43,5 +43,5 @@ for trees in tree_list:
     root = tree.getroot()
 #    find_dbGaPs(root)
 #    find_PhenX(root)
-    print(trees)
+    print(trees) # debug
     output(outfile, find_dbGaPs(root), find_PhenX(root))

@@ -7,14 +7,16 @@ The Complex Phenotypes database is a relational database that enables users to f
 
 This repository contains a R package that allows you access all pulic metadata to explore what data is available. You can do this in two ways. One is to the query the database in R and second is to use a shiny app to query the database. 
 
-*Quick start*
+## Example Query
+
+## *Quick start*
   1. Query examples in R
   2. shiny app via R studio or web
 
-*Web Query*
+## *Web Query*
 
-*Installation*
+## *Installation*
 
-*Dependencies*
+## *Dependencies*
  
-*Furthur Use*
+## *Further Use*
