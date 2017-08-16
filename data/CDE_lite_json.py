@@ -1,11 +1,14 @@
-#!/usr/bin/python3
+#!/usr/bin/python
+#tested on 2.7.13 and 3.6.0
 
 import json
-import sys
 import re
-import pprint
+import argparse
 
 #usage = python3 CDE_lite_json.py *.json
+parser = argparse.ArgumentParser()
+parser.add_argument("json", help="json export from https://cde.nlm.nih.gov/cde/search")
+args = parser.parse_args()
 
 #gets dbGaP crossrefs from dataSets block
 def find_dbGaPs(tree_root, index):
@@ -44,7 +47,7 @@ def output_tsv(outfile, dbGaPs, primary_name):
 
 outfile = open("CDE_table.tsv", "w")
 outfile.write('phv_id\tPhenX_id\tCDE_primary_name\n')
-tree = open(sys.argv[1])
+tree = open(args.json)
 parsed_tree = json.load(tree)
 for index in range(len(parsed_tree)):
     output_tsv(outfile, find_dbGaPs(parsed_tree, index), find_name(parsed_tree, index))
