@@ -24,3 +24,6 @@ Imports:
   R.utils,
   dplyr,
   stringr
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
