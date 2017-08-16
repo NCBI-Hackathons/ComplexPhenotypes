@@ -9,6 +9,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("json", help="json export from https://cde.nlm.nih.gov/cde/search")
 args = parser.parse_args()
+print(args.json)
 
 #gets dbGaP crossrefs from dataSets block
 def find_dbGaPs(tree_root, index):
