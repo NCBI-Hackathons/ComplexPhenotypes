@@ -43,21 +43,21 @@ def output_tsv(outfile, dbGaPs, primary_name):
 #recursive loop through element blocks for parent:child pairs
 def recursive_parent_match(tree_root, parentchild, parent):
     pprint.pprint(tree_root)
-    if not tree_root:
+    if not tree_root[0]:
         for n in range(1,len(tree_root)):
             parentchild[parent] = tree_root['name']
     else:
         for n in range(1,len(tree_root)):
             child = tree_root['name']
             parentchild[parent] = child
-            new_tree_root = tree_root['elements'][0]
+            new_tree_root = tree_root[0]['elements']
             recursive_parent_match(new_tree_root, parentchild, child)
     
 #setup recursive loop by getting to right depth in element block
 def find_element_tree(tree_root, index):
     parentchild = {}
     if tree_root[index]['classification'][0]['stewardOrg']['name'] == 'PhenX':
-        new_tree_root = tree_root[index]['classification'][0]['elements'][0]['elements'][0]
+        new_tree_root = tree_root[index]['classification'][0]['elements'][0]['elements']
         recursive_parent_match(new_tree_root, parentchild, 'Domains')
     pprint.pprint(parentchild)
     return parentchild
